@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "source": {
+    "title": "糖尿病門診的多重複雜度與 AI 跨專業整合照護",
+    "url": "https://chatgpt.com/space/page_24179a2ed7988191b90ecf673bdf4ac8",
+    "current_sequence": 2,
+    "updated_at": "2026-11-10T20:54:35.376482Z"
+  },
+  "exported_at_utc": "2026-11-10T21:09:35Z",
+  "local_review_date": "2026-11-11",
+  "clinical_scope": "成人第 2 型糖尿病門診；特殊族群需各自路徑",
+  "clinical_reference_version": "ADA 2026 等原稿所列指引",
+  "taiwan_payment_standard_effective_date": "2026-04-01",
+  "source_snapshot": "archive/2026-11-11-complete-review.md",
+  "editable_chapters": [
+    "docs/01-clinic-complexity.md",
+    "docs/02-taiwan-care-model.md",
+    "docs/03-integrated-care-evidence.md",
+    "docs/04-complication-screening.md",
+    "docs/05-treatment-and-referral.md",
+    "docs/06-ai-workflow-architecture.md",
+    "docs/07-ai-clinical-evidence.md",
+    "docs/08-taiwan-ai-applications.md",
+    "docs/09-existing-project-and-gaps.md",
+    "docs/10-previsit-brief-example.md",
+    "docs/11-implementation-and-evaluation.md"
+  ],
+  "source_policy": "原稿保留為固定快照；後續編修以 docs/ 為主。原稿的查核日期與既有程式查核 commit 不代表本次重新驗證。",
+  "related_implementation": {
+    "url": "https://github.com/zinojeng/AI-agent-in-diabetes",
+    "reviewed_commit": "6180c4f2a56ae50ca5b6ec22e4795f7922a63a3f"
+  },
+  "status": "documentation_and_research_design",
+  "patient_data": "Only the explicitly fictional example contained in the source review; no patient records included."
+}
+

@@ -1,0 +1,740 @@
+{
+  "schema_version": 1,
+  "scope": "References cited in the source review; not an independent systematic review",
+  "review_date": "2026-11-11",
+  "references": [
+    {
+      "id": "REF-001",
+      "url": "https://doi.org/10.2337/dc26-S004",
+      "labels": [
+        "ADA 2026 整體評估",
+        "ADA 第 4 章"
+      ],
+      "sections": [
+        {
+          "title": "糖尿病門診的多重複雜度",
+          "path": "docs/01-clinic-complexity.md"
+        },
+        {
+          "title": "併發症與共病的篩檢",
+          "path": "docs/04-complication-screening.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-002",
+      "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S13/163920/1-Improving-Care-and-Promoting-Health-in",
+      "labels": [
+        "族群照護"
+      ],
+      "sections": [
+        {
+          "title": "糖尿病門診的多重複雜度",
+          "path": "docs/01-clinic-complexity.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-003",
+      "url": "https://diabetesjournals.org/docm-care/article-pdf/1/3/501/860536/docm26a005.pdf",
+      "labels": [
+        "DSMES 與營養心理照護",
+        "ADA 2026 行為與福祉照護"
+      ],
+      "sections": [
+        {
+          "title": "糖尿病門診的多重複雜度",
+          "path": "docs/01-clinic-complexity.md"
+        },
+        {
+          "title": "篩檢異常後的治療與轉介",
+          "path": "docs/05-treatment-and-referral.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-004",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2219701/",
+      "labels": [
+        "Safford 等，2007"
+      ],
+      "sections": [
+        {
+          "title": "糖尿病門診的多重複雜度",
+          "path": "docs/01-clinic-complexity.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-005",
+      "url": "https://doi.org/10.1016/j.jclinepi.2012.05.005",
+      "labels": [
+        "Shippee 等，2012"
+      ],
+      "sections": [
+        {
+          "title": "糖尿病門診的多重複雜度",
+          "path": "docs/01-clinic-complexity.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-006",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9848034/",
+      "labels": [
+        "Revisiting the Time Needed to Provide Adult Primary Care"
+      ],
+      "sections": [
+        {
+          "title": "糖尿病門診的多重複雜度",
+          "path": "docs/01-clinic-complexity.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-007",
+      "url": "https://health99.hpa.gov.tw/storage/pdf/materials/22628.pdf",
+      "labels": [
+        "國健署共同照護網與認證說明"
+      ],
+      "sections": [
+        {
+          "title": "台灣現有的跨專業糖尿病照護",
+          "path": "docs/02-taiwan-care-model.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-008",
+      "url": "https://www.nhi.gov.tw/en/cp-18606-44adb-8-2.html",
+      "labels": [
+        "健保署英文說明"
+      ],
+      "sections": [
+        {
+          "title": "台灣現有的跨專業糖尿病照護",
+          "path": "docs/02-taiwan-care-model.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-009",
+      "url": "https://www.nhi.gov.tw/ch/dl-65879-e1d3294beea24125ac05b832243bd9f3-1.pdf",
+      "labels": [
+        "現行支付標準"
+      ],
+      "sections": [
+        {
+          "title": "台灣現有的跨專業糖尿病照護",
+          "path": "docs/02-taiwan-care-model.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-010",
+      "url": "https://www.nhi.gov.tw/ch/cp-14177-adf81-3576-1.html",
+      "labels": [
+        "照護方案與附表入口"
+      ],
+      "sections": [
+        {
+          "title": "台灣現有的跨專業糖尿病照護",
+          "path": "docs/02-taiwan-care-model.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-011",
+      "url": "https://www.ntuh.gov.tw/nurse/Fpage.action?fid=5477&muid=7720",
+      "labels": [
+        "臺大糖尿病衛教小組"
+      ],
+      "sections": [
+        {
+          "title": "台灣現有的跨專業糖尿病照護",
+          "path": "docs/02-taiwan-care-model.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-012",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3312811/",
+      "labels": [
+        "原始研究"
+      ],
+      "sections": [
+        {
+          "title": "整合生理心理與自我照護的臨床研究",
+          "path": "docs/03-integrated-care-evidence.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-013",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2769466",
+      "labels": [
+        "原始研究"
+      ],
+      "sections": [
+        {
+          "title": "整合生理心理與自我照護的臨床研究",
+          "path": "docs/03-integrated-care-evidence.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-014",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6561084/",
+      "labels": [
+        "原始研究"
+      ],
+      "sections": [
+        {
+          "title": "整合生理心理與自我照護的臨床研究",
+          "path": "docs/03-integrated-care-evidence.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33929522/",
+      "labels": [
+        "原始研究"
+      ],
+      "sections": [
+        {
+          "title": "整合生理心理與自我照護的臨床研究",
+          "path": "docs/03-integrated-care-evidence.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-016",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8956973/",
+      "labels": [
+        "原始研究"
+      ],
+      "sections": [
+        {
+          "title": "整合生理心理與自我照護的臨床研究",
+          "path": "docs/03-integrated-care-evidence.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-017",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7035087/",
+      "labels": [
+        "原始研究"
+      ],
+      "sections": [
+        {
+          "title": "整合生理心理與自我照護的臨床研究",
+          "path": "docs/03-integrated-care-evidence.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-018",
+      "url": "https://doi.org/10.2337/dc26-S010",
+      "labels": [
+        "ADA 第 10 章",
+        "ADA 心血管"
+      ],
+      "sections": [
+        {
+          "title": "併發症與共病的篩檢",
+          "path": "docs/04-complication-screening.md"
+        },
+        {
+          "title": "篩檢異常後的治療與轉介",
+          "path": "docs/05-treatment-and-referral.md"
+        },
+        {
+          "title": "既有 GitHub 專案的延伸方向",
+          "path": "docs/09-existing-project-and-gaps.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-019",
+      "url": "https://doi.org/10.2337/dc26-S011",
+      "labels": [
+        "ADA 第 11 章",
+        "ADA 腎臟"
+      ],
+      "sections": [
+        {
+          "title": "併發症與共病的篩檢",
+          "path": "docs/04-complication-screening.md"
+        },
+        {
+          "title": "既有 GitHub 專案的延伸方向",
+          "path": "docs/09-existing-project-and-gaps.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-020",
+      "url": "https://doi.org/10.2337/dc26-S012",
+      "labels": [
+        "ADA 第 12 章",
+        "ADA 眼科",
+        "ADA 神經與足部",
+        "ADA"
+      ],
+      "sections": [
+        {
+          "title": "併發症與共病的篩檢",
+          "path": "docs/04-complication-screening.md"
+        },
+        {
+          "title": "篩檢異常後的治療與轉介",
+          "path": "docs/05-treatment-and-referral.md"
+        },
+        {
+          "title": "AI 臨床研究的證據範圍",
+          "path": "docs/07-ai-clinical-evidence.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-021",
+      "url": "https://doi.org/10.2337/dc16-2042",
+      "labels": [
+        "ADA 神經病變立場聲明"
+      ],
+      "sections": [
+        {
+          "title": "併發症與共病的篩檢",
+          "path": "docs/04-complication-screening.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-022",
+      "url": "https://iwgdfguidelines.org/wp-content/uploads/2023/07/IWGDF-Guidelines-2023.pdf",
+      "labels": [
+        "IWGDF"
+      ],
+      "sections": [
+        {
+          "title": "併發症與共病的篩檢",
+          "path": "docs/04-complication-screening.md"
+        },
+        {
+          "title": "AI 如何支援跨專業照護流程",
+          "path": "docs/06-ai-workflow-architecture.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-023",
+      "url": "https://doi.org/10.2337/dc26-S006",
+      "labels": [
+        "ADA 第 6 章"
+      ],
+      "sections": [
+        {
+          "title": "併發症與共病的篩檢",
+          "path": "docs/04-complication-screening.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-024",
+      "url": "https://doi.org/10.2337/dc26-S005",
+      "labels": [
+        "ADA 第 5 章",
+        "ADA 心理照護"
+      ],
+      "sections": [
+        {
+          "title": "併發症與共病的篩檢",
+          "path": "docs/04-complication-screening.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-025",
+      "url": "https://doi.org/10.2337/dc26-S013",
+      "labels": [
+        "ADA 第 13 章"
+      ],
+      "sections": [
+        {
+          "title": "併發症與共病的篩檢",
+          "path": "docs/04-complication-screening.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-026",
+      "url": "https://doi.org/10.1016/j.kint.2023.10.016",
+      "labels": [
+        "KDIGO 2024",
+        "KDIGO"
+      ],
+      "sections": [
+        {
+          "title": "併發症與共病的篩檢",
+          "path": "docs/04-complication-screening.md"
+        },
+        {
+          "title": "AI 如何支援跨專業照護流程",
+          "path": "docs/06-ai-workflow-architecture.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-027",
+      "url": "https://easlcampus.eu/sites/default/files/2024-08/EASL_CPGs_management_of_MASLD.pdf",
+      "labels": [
+        "EASL–EASD–EASO 2024",
+        "EASL–EASD–EASO"
+      ],
+      "sections": [
+        {
+          "title": "併發症與共病的篩檢",
+          "path": "docs/04-complication-screening.md"
+        },
+        {
+          "title": "篩檢異常後的治療與轉介",
+          "path": "docs/05-treatment-and-referral.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-028",
+      "url": "https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001251",
+      "labels": [
+        "ACC／AHA PAD 指引",
+        "ACC／AHA PAD"
+      ],
+      "sections": [
+        {
+          "title": "併發症與共病的篩檢",
+          "path": "docs/04-complication-screening.md"
+        },
+        {
+          "title": "篩檢異常後的治療與轉介",
+          "path": "docs/05-treatment-and-referral.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-029",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690176/",
+      "labels": [
+        "ADA 腎臟",
+        "ADA 腎臟治療建議"
+      ],
+      "sections": [
+        {
+          "title": "篩檢異常後的治療與轉介",
+          "path": "docs/05-treatment-and-referral.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-030",
+      "url": "https://cds-hooks.hl7.org/",
+      "labels": [
+        "HL7 CDS Hooks"
+      ],
+      "sections": [
+        {
+          "title": "AI 如何支援跨專業照護流程",
+          "path": "docs/06-ai-workflow-architecture.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-031",
+      "url": "https://professional.heart.org/en/guidelines-and-statements/prevent-calculator",
+      "labels": [
+        "AHA"
+      ],
+      "sections": [
+        {
+          "title": "AI 如何支援跨專業照護流程",
+          "path": "docs/06-ai-workflow-architecture.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-032",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31519694/",
+      "labels": [
+        "原始研究"
+      ],
+      "sections": [
+        {
+          "title": "AI 如何支援跨專業照護流程",
+          "path": "docs/06-ai-workflow-architecture.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-033",
+      "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2649265",
+      "labels": [
+        "原始研究"
+      ],
+      "sections": [
+        {
+          "title": "AI 如何支援跨專業照護流程",
+          "path": "docs/06-ai-workflow-architecture.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-034",
+      "url": "https://professional.heart.org/-/media/PHD-Files/Guidelines-and-Statements/PREVENT/PREVENT-Update-FAQ-101426.pdf",
+      "labels": [
+        "AHA 更新說明"
+      ],
+      "sections": [
+        {
+          "title": "AI 如何支援跨專業照護流程",
+          "path": "docs/06-ai-workflow-architecture.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-035",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3022040/",
+      "labels": [
+        "原始研究"
+      ],
+      "sections": [
+        {
+          "title": "AI 臨床研究的證據範圍",
+          "path": "docs/07-ai-clinical-evidence.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-036",
+      "url": "https://formative.jmir.org/2026/1/e71541",
+      "labels": [
+        "全文"
+      ],
+      "sections": [
+        {
+          "title": "AI 臨床研究的證據範圍",
+          "path": "docs/07-ai-clinical-evidence.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-037",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12768499",
+      "labels": [
+        "原始研究"
+      ],
+      "sections": [
+        {
+          "title": "AI 臨床研究的證據範圍",
+          "path": "docs/07-ai-clinical-evidence.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-038",
+      "url": "https://www.nature.com/articles/s41591-026-04503-6",
+      "labels": [
+        "原始研究"
+      ],
+      "sections": [
+        {
+          "title": "AI 臨床研究的證據範圍",
+          "path": "docs/07-ai-clinical-evidence.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-039",
+      "url": "https://aclanthology.org/2026.emnlp-demos.32/",
+      "labels": [
+        "論文"
+      ],
+      "sections": [
+        {
+          "title": "AI 臨床研究的證據範圍",
+          "path": "docs/07-ai-clinical-evidence.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-040",
+      "url": "https://docs.openclaw.ai/",
+      "labels": [
+        "OpenClaw"
+      ],
+      "sections": [
+        {
+          "title": "AI 臨床研究的證據範圍",
+          "path": "docs/07-ai-clinical-evidence.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-041",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "labels": [
+        "Hermes"
+      ],
+      "sections": [
+        {
+          "title": "AI 臨床研究的證據範圍",
+          "path": "docs/07-ai-clinical-evidence.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-042",
+      "url": "https://www.nhi.gov.tw/en/cp-19748-976e7-8-2.html",
+      "labels": [
+        "健保署原文"
+      ],
+      "sections": [
+        {
+          "title": "台灣已有的 AI 與 LLM 應用",
+          "path": "docs/08-taiwan-ai-applications.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-043",
+      "url": "https://www.chimei.org.tw/main/cmh_department/54220/english/news/20240712.html",
+      "labels": [
+        "院方英文介紹"
+      ],
+      "sections": [
+        {
+          "title": "台灣已有的 AI 與 LLM 應用",
+          "path": "docs/08-taiwan-ai-applications.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-044",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/13022550",
+      "labels": [
+        "研究全文"
+      ],
+      "sections": [
+        {
+          "title": "台灣已有的 AI 與 LLM 應用",
+          "path": "docs/08-taiwan-ai-applications.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-045",
+      "url": "https://ir.nhri.edu.tw/handle/3990099045/21119",
+      "labels": [
+        "國衛院計畫頁"
+      ],
+      "sections": [
+        {
+          "title": "台灣已有的 AI 與 LLM 應用",
+          "path": "docs/08-taiwan-ai-applications.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-046",
+      "url": "https://wwwv.tsgh.ndmutsgh.edu.tw/news/191/102550/33828/15128",
+      "labels": [
+        "院方公告"
+      ],
+      "sections": [
+        {
+          "title": "台灣已有的 AI 與 LLM 應用",
+          "path": "docs/08-taiwan-ai-applications.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-047",
+      "url": "https://github.com/zinojeng/AI-agent-in-diabetes/blob/6180c4f2a56ae50ca5b6ec22e4795f7922a63a3f/README.md",
+      "labels": [
+        "README"
+      ],
+      "sections": [
+        {
+          "title": "既有 GitHub 專案的延伸方向",
+          "path": "docs/09-existing-project-and-gaps.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-048",
+      "url": "https://github.com/zinojeng/AI-agent-in-diabetes/blob/6180c4f2a56ae50ca5b6ec22e4795f7922a63a3f/src/dm_care_pipeline/data_integration.py",
+      "labels": [
+        "程式"
+      ],
+      "sections": [
+        {
+          "title": "既有 GitHub 專案的延伸方向",
+          "path": "docs/09-existing-project-and-gaps.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-049",
+      "url": "https://github.com/zinojeng/AI-agent-in-diabetes/blob/6180c4f2a56ae50ca5b6ec22e4795f7922a63a3f/src/dm_care_pipeline/calculators/tier_b/_base.py",
+      "labels": [
+        "共用骨架"
+      ],
+      "sections": [
+        {
+          "title": "既有 GitHub 專案的延伸方向",
+          "path": "docs/09-existing-project-and-gaps.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-050",
+      "url": "https://github.com/zinojeng/AI-agent-in-diabetes/blob/6180c4f2a56ae50ca5b6ec22e4795f7922a63a3f/src/dm_care_pipeline/calculators/fib4.py",
+      "labels": [
+        "程式"
+      ],
+      "sections": [
+        {
+          "title": "既有 GitHub 專案的延伸方向",
+          "path": "docs/09-existing-project-and-gaps.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-051",
+      "url": "https://github.com/zinojeng/AI-agent-in-diabetes/blob/6180c4f2a56ae50ca5b6ec22e4795f7922a63a3f/src/dm_care_pipeline/risk.py",
+      "labels": [
+        "程式"
+      ],
+      "sections": [
+        {
+          "title": "既有 GitHub 專案的延伸方向",
+          "path": "docs/09-existing-project-and-gaps.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-052",
+      "url": "https://github.com/zinojeng/AI-agent-in-diabetes/blob/6180c4f2a56ae50ca5b6ec22e4795f7922a63a3f/src/dm_care_pipeline/pre_visit_brief.py",
+      "labels": [
+        "程式"
+      ],
+      "sections": [
+        {
+          "title": "既有 GitHub 專案的延伸方向",
+          "path": "docs/09-existing-project-and-gaps.md"
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,126 @@
+OK  PMC10784572 ACCESS           '164 participants' x1
+OK  PMC10784572 ACCESS           '81/81' x1
+OK  PMC10784572 ACCESS           '18/8[12]' x1
+OK  PMC10784572 ACCESS           '16/25' x2
+OK  PMC10784572 ACCESS           '64%' x3
+OK  PMC10784572 ACCESS           '22%' x6
+OK  PMC10784572 ACCESS           'n = 163' x1
+OK  PMC10784572 ACCESS           '6 months' x8
+OK  PMC6550188 pivotal           '87\\.2%' x4
+OK  PMC6550188 pivotal           '90\\.7%' x5
+OK  PMC6550188 pivotal           '96\\.1%' x4
+OK  PMC6550188 pivotal           '819' x35
+OK  PMC6550188 pivotal           '198 \\(23\\.8%\\)' x1
+OK  PMC6550188 pivotal           '892' x3
+OK  PMC10692866 voice            '39 participants were randomized' x1
+OK  PMC10692866 voice            '32 participants' x4
+OK  PMC10692866 voice            '82\\.9%' x1
+OK  PMC10692866 voice            '50\\.2%' x1
+OK  PMC10692866 voice            '32\\.7%' x1
+OK  PMC10692866 voice            '15 days' x3
+OK  PMC10692866 voice            '8 weeks' x15
+OK  PMC12059970 iNCDSS           '149' x3
+OK  PMC12059970 iNCDSS           '76\\.4%' x2
+OK  PMC12059970 iNCDSS           '73\\.6%' x1
+OK  PMC12059970 iNCDSS           '−2\\.7% to 8\\.0%' x1
+OK  PMC12059970 iNCDSS           '6 percentage points' x1
+OK  PMC12059970 iNCDSS           'Thirteen participants' x1
+OK  PMC12059970 iNCDSS           '68 participants in each group' x1
+OK  PMC12547058 GPT4             '243' x5
+OK  PMC12547058 GPT4             '230' x7
+OK  PMC12547058 GPT4             '115' x13
+OK  PMC12547058 GPT4             '64% for accuracy' x1
+OK  PMC12547058 GPT4             '35% for specificity' x1
+OK  PMC12547058 GPT4             '40%' x3
+OK  PMC12547058 GPT4             '25% \\(29 of 115\\)' x1
+OK  PMC12768499 scribe           'N=238' x1
+OK  PMC12768499 scribe           '9\\.5%' x4
+OK  PMC12768499 scribe           '−17\\.2% to −1\\.8%' x2
+OK  PMC12768499 scribe           '0\\.025' x2
+OK  PMC12768499 scribe           '33\\.5%' x2
+OK  PMC12768499 scribe           '29\\.5%' x2
+OK  PMC12768499 scribe           'single academic institution' x1
+OK  PMC12768499 scribe           'English-only' x2
+OK  PMC13472850 Kenya            '9,691' x1
+OK  PMC13472850 Kenya            '9,347' x2
+OK  PMC13472850 Kenya            '102/4,693' x1
+OK  PMC13472850 Kenya            '94/4,654' x1
+OK  PMC13472850 Kenya            '0\\.77' x5
+OK  PMC13472850 Kenya            '0\\.55 to 1\\.08' x4
+OK  PMC13472850 Kenya            'adjusted for facility and clinical officer' x2
+OK  PMC13472850 Kenya            '50% relative reduction' x1
+OK  PMC12885450 He JMIR          '67\\.93' x3
+OK  PMC12885450 He JMIR          '300 treatment recommendations' x2
+OK  PMC12885450 He JMIR          'not yet been prospectively validated' x1
+OK  PMC12885450 He JMIR          'single medical institution' x1
+OK  PMC13430954 Guo RAG-CGM      '4\\.37' x4
+OK  PMC13430954 Guo RAG-CGM      '0\\.782' x3
+OK  PMC13430954 Guo RAG-CGM      '288' x9
+OK  PMC13430954 Guo RAG-CGM      '864' x3
+OK  PMC13430954 Guo RAG-CGM      '3, 0\\.7%' x1
+OK  PMC13022550 TMU nursing      '3\\.45' x9
+OK  PMC13022550 TMU nursing      '1\\.17' x6
+OK  PMC13022550 TMU nursing      '474-981' x2
+OK  PMC13022550 TMU nursing      'September 2024' x5
+OK  PMC13022550 TMU nursing      'October-December 2024' x7
+OK  PMC3022040 O'Connor          '2,556' x1
+OK  PMC3022040 O'Connor          '11 clinics' x1
+OK  PMC3022040 O'Connor          '−0\\.26%' x1
+OK  PMC3022040 O'Connor          'P = \\.62' x1
+OK  PMC4752167 Tangri2016        '721,357' x3
+OK  PMC4752167 Tangri2016        '31 cohorts' x4
+OK  PMC4752167 Tangri2016        '23,829' x2
+OK  PMC4752167 Tangri2016        '32\\.9%' x2
+OK  PMC4752167 Tangri2016        '16\\.5%' x2
+OK  PMC4752167 Tangri2016        'CKD-EPI\\) 2009' x1
+OK  PMC4752167 Tangri2016        '170 mg/g' x1
+OK  PMC13403277 Walker           '61\\.2%' x3
+OK  PMC13403277 Walker           '70\\.3%' x3
+OK  PMC13403277 Walker           '1\\.75 at 5 years' x1
+OK  PMC13403277 Walker           'O/E ratio 0\\.98' x2
+OK  Grams2023_KFRE_AAM           'eGFR <45' x2
+OK  Grams2023_KFRE_AAM           '45-59' x6
+OK  Grams2023_KFRE_AAM           'CKD-EPI 2021' x15
+OK  PMC11911190 ML-DKD SR        '26 studies' x6
+OK  PMC11911190 ML-DKD SR        'only 8 studies' x2
+OK  PMC11911190 ML-DKD SR        '0\\.839' x3
+OK  PMC11911190 ML-DKD SR        '0\\.830' x3
+OK  PMC12291684 DR-pred SR       'All 15 included studies were recognized as high risk of bias' x1
+OK  PMC12481961 DPN-ML SR        'All studies had a high risk of bias' x1
+OK  PMC12481961 DPN-ML SR        '0\\.773' x2
+OK  PMC11465834 Su Taiwan        '0\\.77, 0\\.60 and 0\\.64' x1
+OK  PMC11465834 Su Taiwan        'UKPDS-OM2, RECODe, and CHIME' x1
+OK  PMC11931409 PROBAST+AI       '16 targeted signalling questions' x1
+OK  PMC11931409 PROBAST+AI       '18 targeted signalling questions' x1
+OK  PMC12485036 Kim2025          'A total of 606 reference messages' x1
+OK  PMC12485036 Kim2025          'No \\[0\\], n = 300; Yes \\[1\\], n = 306' x1
+OK  PMC12485036 Kim2025          'Stanford Health Care' x1
+OK  PMC12485036 Kim2025          'Challenging cases \\(N = 39\\)' x1
+OK  PMC12485036 Kim2025          '0\\.61 vs\\. 0\\.81' x1
+OK  PMC12485036 Kim2025          '0\\.51 vs\\. 0\\.90' x1
+OK  PMC11653048 Wu2024           'only 1 \\(4%\\) randomized controlled trial' x1
+OK  PMC11653048 Wu2024           '4 groups of pre-post trials and 219 trial participants' x1
+OK  PMC11653048 Wu2024           'MD\\] 0\\.30, 95% CI 0\\.04-0\\.55' x1
+OK  PMC11653048 Wu2024           'January 1, 2023' x2
+OK  PMC12707440 Zhang2025        'ES\\]=0\\.30' x1
+OK  PMC12707440 Zhang2025        '\\[PI\\] −0\\.85, 1\\.67' x1
+OK  PMC12707440 Zhang2025        '14 RCTs' x4
+OK  PMC12707440 Zhang2025        'registered the protocol retrospectively' x2
+OK  PMC12707440 Zhang2025        'g=0\\.54, SE=0\\.26' x1
+OK  PMC12707440 Zhang2025        'g=0\\.41' x1
+OK  PMC9293940 Samal2022         '5,590 patients' x2
+OK  PMC9293940 Samal2022         '118 of 419' x1
+OK  PMC9293940 Samal2022         '161 of 421' x1
+OK  PMC9293940 Samal2022         'NCT02990897' x2
+OK  PMC9293940 Samal2022         'clicked 122 times' x1
+OK  PMC10906435 SperlHillen2024  '32 Midwestern primary care clinics' x1
+OK  PMC10906435 SperlHillen2024  '6,420 patients' x2
+OK  PMC10906435 SperlHillen2024  '1\\.02; 95% CI, 0\\.79-1\\.32' x1
+OK  PMC10906435 SperlHillen2024  'NCT03890588' x1
+OK  PMC11176869 MacNeill2024     '68 participants' x2
+OK  PMC11176869 MacNeill2024     'no intervention' x4
+OK  PMC11176869 MacNeill2024     'NCT04620668' x3
+OK  PMC7677021 Gong2020          '−0\\.04%, 95% CI −0\\.45 to 0\\.36' x1
+OK  PMC7677021 Gong2020          '187 adults' x1
+OK  PMC11019967 TRIPOD+AI        'TRIPOD\\+AI' x70
+MISSES: 0

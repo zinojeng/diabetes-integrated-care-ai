@@ -63,6 +63,31 @@
       "macmini_status": "ssh_denied_not_observed",
       "llamaparse_status": "not_run",
       "runtime_secret_committed": false
+    },
+    {
+      "date": "2026-11-11",
+      "summary": "Four independent Claude sessions ran PubMed searches, retrieved and verified open full text, cross-checked each other, and implemented tested calculators. Full text and parsed output are not committed.",
+      "sessions": [
+        "complications",
+        "psychosocial",
+        "calculators",
+        "methods_ai"
+      ],
+      "evidence_rows": {
+        "complications": 51,
+        "psychosocial": 57,
+        "methods_ai": 23,
+        "calculators": 35
+      },
+      "tests": "python3 -m unittest discover -s tests/calculators (102 tests)",
+      "unresolved": [
+        "Steno-2 2003 and 2008 full text",
+        "ADA 2026 Section 4 full text",
+        "JAMA 2016 KFRE eAppendix p9",
+        "DCSI rubric full text",
+        "PREVENT coefficients and 2026-10-14 HbA1c correction",
+        "NHI AI pilot announcement date, NHRI project period, TSGH MEDIC announcement"
+      ]
     }
   ]
 }

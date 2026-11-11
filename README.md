@@ -60,26 +60,22 @@ AI-assisted whole-person assessment and interdisciplinary diabetes care.
 
 尚未指定開源授權；引用文獻與第三方軟體依各自權利及授權條款處理。
 
-## Codex主導、Claude Opus5.5跨session協作
+## 2026-11-11 全文驗證與跨 session 研究
 
-四個獨立sessions：complications、psychosocial、calculators、methods_ai；模型固定為`claude-opus-5-5`。原生peer messaging在Claude sessions之間運作；Codex負責整合及逐項確認。
+[整合報告](docs/14-integrated-synthesis.md)回答六個研究問題：困難點、整合需求、共病評估、AI 整合方式、併發症與心理層面的整合照護，以及 calculators。內容是目的式文獻綜整，不是 systematic review，也不是已部署的臨床系統。
 
-**目前沒有取得Mac mini上的Claude回覆或peer ACK。** 本輪MacBook Air工作階段的SSH被限制、Claude session目錄寫入EPERM且未登入；這些觀察不能代表Mac mini的狀態。GitHub研究文件與啟動程式可獨立完成，不把準備好當成執行成功。
+四個獨立 sessions 各自檢索 PubMed、取得開放全文並用 grep 核對數字，再互相交叉查核：
 
-請在已連線Mac mini的一般Terminal執行：
+| Session | 報告 | 交叉查核 |
+| --- | --- | --- |
+| complications | [report](sessions/complications/report.md) | [crosscheck](sessions/complications/crosscheck.md) |
+| psychosocial | [report](sessions/psychosocial/report.md) | [crosscheck](sessions/psychosocial/crosscheck.md) |
+| calculators | [report](sessions/calculators/report.md) | [handoff](sessions/calculators/handoff.md) |
+| methods_ai | [report](sessions/methods_ai/report.md) | [crosscheck](sessions/methods_ai/crosscheck.md) |
 
-```bash
-curl -fsS https://raw.githubusercontent.com/zinojeng/diabetes-integrated-care-ai/main/scripts/bootstrap_macmini.sh -o /tmp/dmic-bootstrap.sh && bash /tmp/dmic-bootstrap.sh
-```
+- 可執行的 calculators 在 `calculators/dmic_calculators`，測試在 `tests/calculators`，執行 `python3 -m unittest discover -s tests/calculators`。只有取得公式與係數的工具才實作，其餘標示為規格，不產生數字。這是研究用程式，沒有臨床驗證，也沒有台灣本地校準。
+- 協議與全文管線見 [workflow/SESSION_PROTOCOL_v2.md](workflow/SESSION_PROTOCOL_v2.md) 與 `scripts/fulltext_tools.py`。
+- 期刊全文與解析檔不提交（版權），只提交 `literature/receipts/` 的雜湊與任務編號；API key 與真實病歷不提交。
+- 尚未解決的項目列在整合報告第 9 節與 [CHANGELOG](CHANGELOG.md)。
 
-工具會同步至指定medical資料夾、檢查登入/寫入/HTTPS，再進入Claude原生畫面。收到READY後輸入`/exit`，接著啟動四個sessions。之後可隨時查看：
-
-```bash
-cd /Users/ander/documents/medical/diabetes/integrated_care
-claude agents --cwd "$PWD"
-python3 scripts/verify_sessions.py
-```
-
-[完整操作與限制](workflow/MACMINI_QUICKSTART.md)｜[臨床證據查核](research/VERIFICATION_CLINICAL_20261111.md)｜[Calculator查核](research/VERIFICATION_CALCULATORS_20261111.md)｜[實際執行紀錄](workflow/EXECUTION_STATUS_20261111.md)
-
-本repo尚未提供自動喚醒Claude的Codex雙向訊息服務；`feedback`目前提供人工投遞內容。原始PDF、解析全文、credentials及runtime不提交。此前固定ZIP不含本次更新，請閱讀main上的Markdown。
+先前 Codex 主導流程的記錄保留在 [workflow/](workflow/)；其中 Mac mini 啟動與 Claude 回覆「尚未取得」的敘述屬於當時狀態，已被上述實際執行取代。

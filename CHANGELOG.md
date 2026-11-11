@@ -1,5 +1,14 @@
 # 修訂紀錄
 
+## 2026-11-11 — 全文驗證、交叉查核與可測試 calculators
+
+- 實際執行四個獨立 sessions（complications、psychosocial、calculators、methods_ai），證據表共 166 筆，約 130 筆有本地全文並以 grep 核對數字；全文與解析檔因版權不提交，只提交 `literature/receipts/`。
+- 新增 [整合報告](docs/14-integrated-synthesis.md)，並完成第二階段交叉查核（各 session 的 `crosscheck.md`）。
+- 新增 `calculators/dmic_calculators` 與 102 個測試：CKD-EPI 2021、KDIGO、KFRE（Original 與非北美 5 年）、IWGDF、SCORE2-Diabetes（重現官方 Excel）、RECODe、TIMI TRS 2°P 與多個心理與功能量表；取不到係數的工具只保留規格。
+- 修正 `scripts/fulltext_tools.py` 的 PMID 對應缺陷（原本可能取到引用該文的文章）。
+- 補入 `docs/03` 的陰性與中性試驗、TEAMcare 與 INDEPENDENT 的成分拆解；修正 `docs/08` 的 PMC 連結；`workflow/claim_review.csv` 更新查核狀態。
+- 未解決項目：Steno-2 兩篇全文、ADA 2026 第 4 章、JAMA 2016 KFRE 補充附錄、DCSI 計分表、PREVENT 係數、三項台灣公告日期。
+
 ## 2026-11-11 — Mac mini啟動檢查與第二輪證據查核
 
 - 新增主機/登入/實際寫入/HTTPS檢查及Mac mini同步啟動入口，遇到EPERM即回報，不改trust或權限。

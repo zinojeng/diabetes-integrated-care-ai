@@ -1,0 +1,94 @@
+# agentB: psychological / functional scale scoring facts (2026-11-11)
+
+Every fact below was grep-checked in a local file. Paths are relative to `literature/`. "OFF" = fulltext/calculators/official/, "PARS" = parsed/calculators/.
+Status: FULLTEXT_VERIFIED / PARTIAL / BLOCKED / NOT_FOUND. Verbatim snippets are short. Missing-item handling is NOT_FOUND for every scale unless stated.
+Scoring facts only; questionnaires are not reproduced. Nothing here is a clinical-validity statement for the DMIC calculators.
+
+## Cross-cutting warnings for Codex
+1. Fisher 2008 (DDS2) was published in **Annals of Family Medicine 6(3):246**, not Diabetes Care (OFF/annfammed_dds2.txt:216 "(c) 2008 Annals of Family Medicine"). The Diabetes Care paper is Polonsky 2005 (DDS17) and Fisher 2012 (cut points).
+2. DDS17 English = 1-6 scale; the German instrument description (secondary) = 0-5 scale with cut-points shifted by 1. Never mix them.
+3. PAID 1995 = six-point Likert (summed); current PAID = 0-4, x1.25 -> 0-100. Different formats.
+4. MoCA/CFS/Mini-Cog are not public-domain; PHQ/GAD-7 and WHO-5 are open (different licences).
+5. Two MoCA pages disagree on training (see MoCA).
+
+## PHQ-2  (PARTIAL: official manual FULLTEXT; Kroenke 2003 abstract only)
+- Items/scale: first 2 items of PHQ-9, "Two items scored 0 to 3 (total score of 0-6)" - OFF/phq_instructions.txt:127. Abstract: 0 ("not at all") to 3 ("nearly every day"), past 2 weeks - OFF/ABSTRACT_Kroenke2003_PHQ2.txt:8.
+- Direction: higher = more depressive symptoms (severity increased 0 to 6) - abstract:8.
+- Cut-off: "a score of 3 or greater should prompt administration of the full PHQ-9 ... as well as a clinical interview" - phq_instructions.txt:83; "recommended cutpoints ... is a score of 3 or greater" - :248-249. Abstract: score >=3 sens 83%, spec 92% for major depression - ABSTRACT:8.
+- Population: 6000 patients in 8 primary-care + 7 ob-gyn clinics (abstract:8). Missing items: NOT_FOUND. Version: Med Care 2003;41:1284 (manual :ref 12). Licence: "All of the measures included in Table 1 are in the public domain. No permission is required to reproduce, translate, display or distribute." - phq_instructions.txt:336.
+
+## PHQ-9  (FULLTEXT_VERIFIED via official manual; Kroenke 2001 paper = ABSTRACT_ONLY, PARS/PMC1495268.md:18-20 "No body in XML")
+- Items 9, each 0-3 ("not at all", "several days", "more than half the days", "nearly every day"); total 0-27 - phq_instructions.txt:112-113, :214-216. 2-week recall :178.
+- Higher = worse. Severity cut-points: "Scores of 5, 10, 15, and 20 represent cutpoints for mild, moderate, moderately severe and severe depression" - :218-219; table 0-4 none-minimal, 5-9 mild, 10-14 moderate, 15-19 moderately severe, 20-27 severe with "proposed treatment actions" :289-299 (source: Kroenke & Spitzer, Psychiatric Annals 2002). 2001 abstract: PHQ-9 >=10 sens 88%/spec 88% for major depression (PMC1495268.md:18).
+- Functional-difficulty item: "not used in calculating any PHQ score" - :87-90.
+- Item 9: manual says assessing suicide risk after a positive answer to item 9 needs a clinical interview ("final decision ... requires a clinical interview", :95-97); PHQ-8 = all items except item 9, 0-24, same cutpoints, "scored just like the PHQ-9" - :115-117, :232-234. No automatic score rule for item 9 is in the manual -> any "item 9 > 0 = alert" is a DMIC design choice, not sourced.
+- Missing items: NOT_FOUND. Population: primary care/ob-gyn (abstract). Diagnostic algorithm (separate from severity score) in manual Table 2 :136-.
+- Licence: public domain (above). Taiwan pointer: Liu 2011 Compr Psychiatry, 1954 Taiwan primary-care patients, alpha .80 - OFF/ABSTRACT_Liu2011_PHQ9_Taiwan.txt:8 (abstract only). Chinese-language PHQ-2/9 meta-review: PARS/PMC9448521.md (cutoff 10 PHQ-9 / 3 PHQ-2 as "ideal" subgroup, line 63).
+
+## GAD-7  (FULLTEXT_VERIFIED via official manual; Spitzer 2006 abstract only)
+- 7 items, each 0-3, total 0-21: phq_instructions.txt:114-115, :237. Higher = more anxiety.
+- "Scores of 5, 10, and 15 represent cutpoints for mild, moderate, and severe anxiety" :237-239; "a recommended cutpoint for further evaluation is a score of 10 or greater" :242. Yellow flag >=10, red flag >=15 :80-83. GAD-2 (first two items) 0-6, cutpoint >=3 :128, :248.
+- Spitzer 2006 abstract: 2740 adult primary-care patients, 15 clinics; cut point sens 89% spec 82% (the cut-point value 10 is from the manual :242, not the abstract) - OFF/ABSTRACT_Spitzer2006_GAD7.txt:8.
+- Missing items NOT_FOUND. Licence: public domain (phq_instructions.txt:336). Taiwan: Shih 2022 J Formos Med Assoc (trad. Chinese GAD-7, epilepsy) - title only via search, no local text.
+
+## DDS-2  (FULLTEXT_VERIFIED) - Fisher 2008 Ann Fam Med; OFF/annfammed_dds2.txt (+ .html)
+- 2 items rated on 6-point scale (1 = not a problem ... 6 = serious problem), past month: annfammed_dds2.txt:132, :182-186 (items = "overwhelmed by the demands of living with diabetes", "often failing with my diabetes regimen").
+- Direction: higher = more distress. Rule: "followed by the administration of the complete 17-item scale for those patients whose average of the 2 screening items is >=3, or whose sum is >=6" - :158. Sens .95 / spec .85 (abstract :131).
+- Population: type 2 DM, age 21-75, English/Spanish, no dementia/psychosis, no severe complications (e.g., dialysis); n=496 San Francisco Bay Area - :143, :150. Not a substitute for depression screening :159.
+- Fisher 2012 (PARS/PMC3263871.md:98,104): DDS17/DDS2 cut points "little or no DD (DDS <2.0), moderate DD (DDS = 2.0-2.9), and high DD (DDS >=3.0)". Note the 2008 paper uses >=3 as "moderate distress" wording (annfammed :131) vs 2012 "high" - terminology differs, numeric >=3 same.
+- Missing items NOT_FOUND. Licence: "(c) 2008 Annals of Family Medicine" only; DDS owner/permission terms NOT_FOUND (diabetesdistress.org timed out). German secondary: "frei verfuegbar - auf Nachfrage bei den Autoren" - OFF/diabetes_psychologie_DDS.txt:9.
+
+## DDS-17  (PARTIAL/FULLTEXT: Polonsky 2005 abstract only; scoring from Fisher 2008 + Fisher 2012 full text)
+- 17 items, 4 subscales (abstract: emotional burden, physician-related, regimen-related, interpersonal) - OFF/ABSTRACT_Polonsky2005_DDS17.txt:8. Item-to-subscale letter key A-D in annfammed_dds2.txt:161-181 (A=5 items, B=4, C=5, D=3 matches German description EB 5, BB 4, TB 5, DIB 3: diabetes_psychologie_DDS.txt ~76-80).
+- "Likert scale with each item scored from 1 (no distress) to 6 (serious distress) ... over the last month" - annfammed_dds2.txt:145; PARS/PMC3263871.md:45 "Mean-item scores are then calculated". Score = mean item score (sum/17), subscale = mean of its items; higher = worse.
+- Cut points (Fisher 2012 Diabetes Care, type 2 DM adults, English-fluent, >=21 y, >=12 mo diabetes; PMC3263871.md:35,98): <2.0 little/none; 2.0-2.9 moderate; >=3.0 high. Rather than "a single cut point". 45.4% >= moderate in 3D sample (:100).
+- Missing items: NOT_FOUND. Taiwan pointer: PARS/PMC8968751.md = new culturally appropriate DDS developed in Taiwan (Lin 2022) - NOT the CHI translation of DDS-17 (not verified further). Chinese DDS (Zhang 2022, PMC9052264) is only a search hit, not downloaded.
+
+## PAID-5  (PARTIAL)
+- McGuire 2010 Diabetologia (abstract only, OFF/ABSTRACT_McGuire2010_PAID5.txt:8): five emotional-distress items of PAID "with items 3, 6, 12, 16, 19"; sens 94% / spec 89%; PAID-1 = Question 12.
+- Scoring (secondary but official-style): each item 0-4; PAID-5 total 0-20 - PARS/PMC11983946.md:47; "For the PAID-5, a total score of >= 8 indicates possible diabetes related emotional distress, which warrants further assessment" - OFF/vumc_paid1_5.txt:77-78. PAID-1 screen: administer rest if item >=3 (:75-76). Direction: higher = more distress. Note item numbers differ: abstract says PAID-1 = item 12 (worry about future) whereas the VUmc sheet shades one item among the 5 - do not hard-code beyond abstract.
+- Population: abstract: database of 1,153 diabetes patients (type not specified in abstract). Missing items NOT_FOUND. Licence NOT_FOUND.
+
+## PAID-20  (PARTIAL: 1995 abstract + secondary scoring)
+- 1995 (Polonsky, Diabetes Care 18:754; OFF/ABSTRACT_Polonsky1995_PAID.txt:8): 20 items, "six-point Likert scale", total = sum of item responses, **451 female patients with type 1 and 2 diabetes, all insulin-requiring** ("limited to female patients using insulin"). Per Indonesian paper (secondary): original 0-5, later 0-4 - PARS/PMC12969205.md:75.
+- Current: each item 0-4 ("not a problem" 0 ... "serious problem" 4); "All 20 scores are added and multiplied by 1.25, resulting in a total score of 0-100 ... Higher scores indicate high distress (cutoff >= 40)" - PARS/PMC11983946.md:47. NDSS (official body): "calculate the total score (0-80) and multiply by 1.25 ... 40 or above indicate severe diabetes distress" - OFF/ndss_paid.txt:77. VUmc sheet: ">33 suggested as likely emotional distress; 38 possible depression" - vumc_paid1_5.txt:78-79 (sources of those two numbers not given locally).
+- Missing items NOT_FOUND. Licence NOT_FOUND. Chinese pointers: PAID-C PMC2797982 (Huang 2010 Diabetes Care; setting not checked), Hsu 2013 J Nurs Res short-form Chinese (title only), Lee 2022 PAID-teen Chinese (title only).
+
+## WHO-5  (FULLTEXT_VERIFIED for WHO 2024; Topp 2015 abstract only, BLOCKED at karger.com 403)
+- WHO/UCN/MSD/MHE/2024.1 (OFF/who5_english_original.txt; page dated 2 October 2024, who5_pubpage.txt:214). 5 statements, past two weeks, 6-point scale 5 (all of the time) ... 0 (at no time) - txt:~740-790; pubpage:218 "rated on a 6-point scale, with higher scores indicating better".
+- "The raw score is calculated by totalling the scores ... ranges from zero to 25, zero representing worst possible mental well-being" :867-883; "multiplied by four" -> 0-100 :891-910. Direction: higher = BETTER (opposite of PHQ/GAD/DDS/PAID).
+- Cut-off: "A percentage score below 50 (or a raw score below 13) has been suggested as a cut-off for poor mental well-being and as an indication for further assessment for the possible presence of a mental health condition (e.g., depressive disorder)" - :946-957 (citing Topp 2015). No "<=28" in the WHO doc.
+- Topp 2015 abstract: 213 articles, translated into >30 languages, screening for depression - OFF/ABSTRACT_Topp2015_WHO5.txt:8.
+- Licence: (c) WHO 2024, CC BY-NC-SA 3.0 IGO (who5_english_original.txt:78, :841); copyright assigned to WHO in 2024 (who5_english_original.txt:~568). Missing items: NOT_FOUND. Population limits: NOT_FOUND. Chinese pointers: WHO page lists "Chinese PR" PDF (who5_pubpage.txt, link only; not downloaded, script variant not stated); Chinese healthcare students cutoff paper PMC10750781 (title only).
+
+## HFS-II  (PARTIAL)
+- PARS/PMC3064031.md (Gonder-Frederick 2011, 777 adults T1D, >=1 y diabetes; :29): two subscales Behavior (HFS-B) and Worry (HFS-W) (:21); "only 18 of 33 items unchanged" (:23) -> 33 items (15 B + 18 W per PMC5530240.md:62). Response scale and formula are NOT stated in PMC3064031 (grep: no 0-4 text).
+- PARS/PMC5530240.md:62 (Singapore 2017): "rated on a five-point Likert scale ranging from 0 (never) to 4 (always)"; "sum scores ... ranging 0-60, 0-72, and 0-132 for the HFS-B, HFS-W, and HFS-II" ; higher = more fear. NDSS reproduction of the Worry scale: 0-4 never...almost always, "last six months" - OFF/ndss_hfs2.txt:5-30.
+- Cut-offs: none; PMC3064031.md:25 "inability to interpret scores in a clinically meaningful way" (the paper provides means only). Singapore paper could not confirm the two-factor structure, recommends analysing HFS-B and HFS-W separately (PMC5530240.md:~249).
+- Missing items NOT_FOUND. Licence: (c) University of Virginia; reproducible for clinical use and non-commercial research, commercial research needs permission - OFF/ndss_hfs2.txt:36-38. Population: T1D adults (original); Singapore T1/T2 insulin >=1 y, age>=21 (PMC5530240.md:35).
+
+## Mini-Cog  (PARTIAL: scoring from third-party reprint of the author's sheet; mini-cog.com BLOCKED 403)
+- OFF/minicog_sfhp_standardized.txt (v. 01.19.16, (c) S. Borson): word recall 0-3 (1 point per word spontaneously recalled, :41); clock draw 0 or 2 (normal = 2; abnormal/refusal = 0); total = recall + clock, 0-5 (:50-52). Direction: higher = better.
+- "A cut point of <3 ... has been validated for dementia screening, but many individuals ... will score higher. When greater sensitivity is desired, a cut point of <4 is recommended" :52-56.
+- Licence: "Reprinted with permission of the author solely for clinical and educational purposes. May not be modified or used for commercial, marketing, or research purposes without permission of the author" :60-61.
+- Abstracts only: Borson 2000 (129 probable dementia + 120 no cognitive decline, Mini-Cog 3-item recall + clock; sens 99%) OFF/ABSTRACT_Borson2000_MiniCog.txt:8 ; Borson 2003 (MoVIES, n=1,119, algorithm "possibly impaired"/"probably normal") ABSTRACT_Borson2003_MiniCog.txt:8. Note the 2003 paper uses an algorithm; the <3 total-score rule comes from the 2016 sheet. Missing items NOT_FOUND. Taiwan: NOT_FOUND.
+
+## MoCA  (FULLTEXT_VERIFIED for mocacognition.com statements; Nasreddine 2005 abstract only)
+- 30 points, ~10 min, MoCA Full: OFF/moca_paper.txt:61. 2005 abstract: "Using a cutoff score 26 ... MoCA detected 90% of MCI subjects" - ABSTRACT_Nasreddine2005_MoCA.txt:8. Site: "Normal Cognitive performance 26 and above; Mild 18-25; Moderate 10-17; Severe 0-9" - moca_faq.txt:159-162 (mild/normal from the 2005 JAGS study, moderate/severe "arbitrarily defined"). So "<26" = abnormal. Higher = better.
+- Education: "If the subject has 12 years of education or fewer, a point is added ... if a subject scores 30/30, a point is not added" - moca_faq.txt:150-151 (years counted after kindergarten; some versions differ).
+- Validated for 55-85 years (moca_faq.txt:134). Version: 8.1 is the latest (alt 8.2/8.3 to limit learning effects; moca_faq.txt:108-111). Blind/telephone etc. scored out of 22 and converted - "has not been validated" (:117).
+- Licence/training: permission page says clinical/educational use "WITHOUT permission", research use "WITH permission", commercial/pharma-funded needs licence, test must be free to patients (moca_permission.txt:77-95); web posting of test/instructions and publication in articles prohibited (:104, :110); "Training and certification is required by any clinician ... who wishes to administer, score and/or interpret" (:71). But the FAQ and terms-of-use state (as of December 2025) certification is **optional** when only the total score is used for screening/triage/referral, required for sub-scores/domain interpretation (moca_faq.txt:121; moca_terms-of-use.txt:78-83). The permission page appears out of date -> use the newer policy but state the conflict.
+- Implication: MoCA item content/stimuli must NOT be embedded in the repo; a calculator could only accept a total entered by a certified/permitted rater. Missing items NOT_FOUND. Taiwan: Tsai 2012 Int Psychogeriatr "Taiwanese version" listed (moca_reference.txt:633) - pointer; site offers "Chinese (Taiwanese)" for MoCA Basic only (moca_paper.txt:85).
+
+## Clinical Frailty Scale  (PARTIAL: v2.0 description + licence FULLTEXT; Rockwood 2005 body BLOCKED)
+- 2005 (PARS/PMC1188185.md:19, abstract only): 7-point CFS in CSHA, n=2305; each 1-category increment raised 5-yr death risk (21.2%) and institutionalisation (23.9%). Original cmaj.ca/PMC/Europe PMC PDF all BLOCKED (403 / PoW).
+- 9-point since 2007; v2.0 (2020) only wording changes: OFF/cfs_dal.txt:39-40 ("expanded from a 7-point scale to the present 9-point scale"; v2.0 level names). v2.0 names (Rockwood & Theou 2020 CGJ, OFF/cfs_cgj2020.txt): 1 Very Fit, 2 Fit (prev. Well), 3 Managing Well, 4 Living with Very Mild Frailty (prev. Vulnerable), 5 Mild, 6 Moderate, 7 Severe, 8 Very Severe Frailty, 9 Terminally Ill (lines 209-318). Older v1.2 labels (Very Fit/Well/Managing Well/Vulnerable/Mildly/Moderately/Severely/Very Severely Frail/Terminally Ill) in OFF/cfs_top_tips_en.txt:13-45 and cfs_guidance_for_use.txt. Note: Top Tips (v2.0 tips, June 2020) still prints the v1.2 scale (c) 2007-2009.
+- Scored by clinical judgement, "not a questionnaire"; "scored so that higher scores mean greater risk" (cfs_guidance_for_use.txt:6; cgj2020:121-125). Baseline = health state ~2 weeks before illness (guidance:18). "If they fit two categories equally well, ... score at the higher or more dependent level" (guidance:91). Level 9 = current state trumps baseline (cgj:308). Dementia: mild/moderate/severe map to CFS 5/6/7 (cfs_top_tips_en.txt:~197, tip #8).
+- Population: "not validated in people under 65" (cfs_top_tips_en.txt:172) / "largely not been validated in younger people" (cgj:183); not for single-system disabilities (guidance:10).
+- Licence: copyright Dalhousie/K. Rockwood; free for research, education or not-for-profit care, do not change or charge (cgj:439-441); permission-for-use agreement via portal, non-commercial usually without fee, commercial/for-profit requires licence, translations need permission (cfs_dal.txt:73; cfs_permission.txt:43-47). Chinese (Traditional) translation exists on Dalhousie list (cfs_translations.txt:47; "we do not independently certify or validate" - permission page). No numeric cut-off defined by the developers; ICU papers cite "5 or 6 or higher" (cgj:179-180) but that is context-specific, not a CFS cut-off.
+- Missing items: N/A (single rating). CFS classification-tree questionnaire (CFS-HQ) exists (cfs_dal.txt, link only).
+
+## FRAIL scale  (PARTIAL)
+- Morley 2013 JAMDA consensus, Table 2 (OFF/pmc4084863_morley2013.txt:225-232; PARS/PMC4084863.md has no table): 5 yes/no components Fatigue, Resistance ("Cannot walk up 1 flight of stairs?"), Aerobic/Ambulation ("Cannot walk 1 block?"), Illnesses (">5 illnesses"), Loss of weight (">5% in past 6 months"); "3 or greater = frailty; 1 or 2 = prefrail" (:227). Consensus: screen all persons >=70 years or with >=5% weight loss/yr (pmc4084863 line 224; PARS/PMC4084863.md:53).
+- Morley 2012 JNHA (PARS/PMC4515112.md:37): "Frail scale scores range from 0-5 (1 point for each component; 0=best to 5=worst)... frail (3-5), pre-frail (1-2), robust (0)". Direction: higher = worse. The study operationalised items from an existing cohort (African Americans 49-65 y), e.g., 5% weight loss within 12 months, >=5 of 11 illnesses, 10 steps/several hundred yards - differs from the Table 2 wording (6 months, >5 illnesses, 1 flight, 1 block): wording variants exist, validate which one DMIC uses.
+- Population in validation: community-dwelling African Americans age 49-65, MMSE>=16 (PARS/PMC4515112.md:33). Abellan van Kan 2008 IANA (PARS/PMC12892609.md): NOT_FOUND - it does not define the FRAIL scale (grep). Missing items NOT_FOUND. Licence NOT_FOUND (PMC copyright notice only). Taiwan: Peng 2020 FRAIL-NH Taiwan nursing homes (title only).

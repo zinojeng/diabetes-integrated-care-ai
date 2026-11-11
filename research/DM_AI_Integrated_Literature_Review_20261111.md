@@ -258,7 +258,7 @@ flowchart TD
 | 台灣案例 | 可借鏡的功能 | 公開證據層級 |
 | --- | --- | --- |
 | **奇美 A+ Copilots** | 跨資料庫整合病人資訊，供醫師、護理師、藥師與營養師分別使用；包含藥事資訊與飲食建議。 | 院方公開導入案例，能支持功能存在；宣傳中的效率數字不宜當成糖尿病隨機試驗結果。[院方英文介紹](https://www.chimei.org.tw/main/cmh_department/54220/english/news/20240712.html) |
-| **北醫體系三院護理交班 LLM** | 把 LLM 接入既有護理資訊系統，產生交班草稿並由護理人員確認。 | 2026 年發表的開發與導入研究，前後比較顯示文書時間下降；非隨機試驗，也非糖尿病門診整體結果。[研究全文](https://pmc.ncbi.nlm.nih.gov/articles/13022550) |
+| **北醫體系三院護理交班 LLM** | 把 LLM 接入既有護理資訊系統，產生交班草稿並由護理人員確認。 | 2026 年發表的開發與導入研究，前後比較顯示文書時間下降；非隨機試驗，也非糖尿病門診整體結果。[研究全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13022550) |
 | **國衛院糖尿病 LLM 對話機器人計畫** | 研究病人問答適切性與長期照護效益。 | 公開研究計畫，期間為 2025 年 8 月至 2026 年 7 月；計畫頁本身未提供已完成臨床成效，不能當成成功試驗。[國衛院計畫頁](https://ir.nhri.edu.tw/handle/3990099045/21119) |
 | **三總 MEDIC GenAI** | 整合院內臨床資料，讓不同職類建立並嵌入工作流程的 LLM 應用。 | 院方 2026 年 11 月 4 日公告，平台自 11 月 2 日上線；屬實作公告，未等同糖尿病整合照護成效。[院方公告](https://wwwv.tsgh.ndmutsgh.edu.tw/news/191/102550/33828/15128) |
 
@@ -371,7 +371,7 @@ DCSI 或既有病歷可以提供疾病與風險線索，但當下的飲食困難
 | REF-041 | [Hermes](https://github.com/NousResearch/hermes-agent) | AI 臨床研究的證據範圍 |
 | REF-042 | [健保署原文](https://www.nhi.gov.tw/en/cp-19748-976e7-8-2.html) | 台灣已有的 AI 與 LLM 應用 |
 | REF-043 | [院方英文介紹](https://www.chimei.org.tw/main/cmh_department/54220/english/news/20240712.html) | 台灣已有的 AI 與 LLM 應用 |
-| REF-044 | [研究全文](https://pmc.ncbi.nlm.nih.gov/articles/13022550) | 台灣已有的 AI 與 LLM 應用 |
+| REF-044 | [研究全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13022550) | 台灣已有的 AI 與 LLM 應用 |
 | REF-045 | [國衛院計畫頁](https://ir.nhri.edu.tw/handle/3990099045/21119) | 台灣已有的 AI 與 LLM 應用 |
 | REF-046 | [院方公告](https://wwwv.tsgh.ndmutsgh.edu.tw/news/191/102550/33828/15128) | 台灣已有的 AI 與 LLM 應用 |
 | REF-047 | [README](https://github.com/zinojeng/AI-agent-in-diabetes/blob/6180c4f2a56ae50ca5b6ec22e4795f7922a63a3f/README.md) | 既有 GitHub 專案的延伸方向 |

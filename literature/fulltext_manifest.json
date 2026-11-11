@@ -1,0 +1,11 @@
+{
+  "as_of": "2026-11-11",
+  "status": "queue_only_no_local_pdf_downloaded",
+  "publication_policy": "Do not commit third-party PDF or parsed full text. Record local SHA256 and parse job ID only after success.",
+  "items": [
+    {"pmid":"21190455","title":"TEAMcare","source_url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC3312811/","html_access":"reviewed","pdf_download":"blocked_local_network","llamaparse":"not_run"},
+    {"pmid":"35333363","title":"JADE-DKD","source_url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC8956973/","html_access":"reviewed_by_research_agent","pdf_download":"blocked_local_network","llamaparse":"not_run"},
+    {"pmid":"38212308","title":"ACCESS","source_url":"https://www.nature.com/articles/s41467-023-44676-z","html_access":"reviewed","pdf_download":"blocked_local_network","llamaparse":"not_run"},
+    {"pmid":"26757465","title":"KFRE multinational assessment","source_url":"https://jamanetwork.com/journals/jama/fullarticle/2481005","html_access":"reviewed_with_supplement_p9","pdf_download":"not_materialized","llamaparse":"not_run"}
+  ]
+}

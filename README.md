@@ -16,7 +16,7 @@ AI-assisted whole-person assessment and interdisciplinary diabetes care.
 
 ## 下載研究整理
 
-- [完整文獻整合 Markdown](research/DM_AI_Integrated_Literature_Review_20261111.md)：11 個主題章節與 52 個來源的單檔閱讀版。
+- [完整文獻整合 Markdown](research/DM_AI_Integrated_Literature_Review_20261111.md)：原有11章加上2份深入補充、40筆新增研究/工具紀錄的單檔閱讀版（與原52來源有重疊）。
 - [研究資料 ZIP](downloads/DM_AI_Whole_Person_Research_20261111.zip)：完整原稿、分章文件及來源清單；不含期刊全文 PDF。
 - [CSV 文獻清單](sources/references.csv)：可用 Excel 或 Numbers 開啟。
 
@@ -48,6 +48,10 @@ AI-assisted whole-person assessment and interdisciplinary diabetes care.
 
 先以病歷摘要、篩檢完整度與需醫師覆核的異常為第一版範圍，再依驗證結果加入計算工具、治療檢核與團隊追蹤。細節見[導入與研究評估](docs/11-implementation-and-evaluation.md)。
 
+新增章節：[深入研究與整合架構](docs/12-deep-research-update.md)、[Calculator公式與心理量表](docs/13-calculator-specifications.md)。
+
+新增索引：[40筆evidence matrix](sources/evidence_matrix_20261111.csv)、[引用來源](sources/references_update_20261111.md)、[檢索規格](research/SEARCH_PROTOCOL_20261111.md)。既有downloads ZIP是先前固定版本，尚未包含本輪補充；請以main上的Markdown為準。
+
 後續修訂以 `docs/` 為主；`archive/` 保存此版原稿，不隨章節修改而覆寫。新增醫療、政策或軟體敘述時，請記錄來源、適用條件與查核日期。
 
 ## 使用範圍
@@ -56,3 +60,39 @@ AI-assisted whole-person assessment and interdisciplinary diabetes care.
 
 尚未指定開源授權；引用文獻與第三方軟體依各自權利及授權條款處理。
 
+## Codex主導、Claude Opus5.5跨session協作
+
+最新模型要求：`claude-opus-5-5`。四個獨立sessions分別研究complications、psychosocial、calculators、methods_ai；各自只寫指定輸出目錄，內部可按需使用相同模型subagent。這是上下文及輸出分工，不是OS隔離。普通subagents在父session中查看。
+
+**目前實測未啟動成功**：本輪受管理sandbox限制Claude狀態目錄寫入，且Anthropic等主機DNS失敗。原生trust選擇未能持久保存，尚無registered DMIC sessions、Claude第一份回覆或peer ACK。完整[實測紀錄](workflow/EXECUTION_STATUS_20261111.md)。
+
+在一般Mac Terminal、此repo根目錄執行：
+
+```bash
+claude --model claude-opus-5-5
+```
+
+完成原生trust、確認實際收到回覆後，輸入`/exit`，再執行：
+
+```bash
+python3 scripts/claude_workflow.py start all
+claude agents --cwd "$PWD"
+```
+
+讀取實際assistant transcript中的模型、session ID與第一份回覆：
+
+```bash
+python3 scripts/verify_sessions.py
+```
+
+設定模型、看見session登錄或檔案存在，都不等於拿到Opus5.5回覆或完成交叉審查。
+
+同步到指定medical資料夾的工具已備妥，請在一般Mac Terminal執行：
+
+```bash
+python3 scripts/install_to_medical.py --copy-local-key
+cd /Users/ander/documents/medical/diabetes/integrated_care
+claude --model claude-opus-5-5
+```
+
+安裝器先備份不同的既有檔，不覆寫Git紀錄；credential只在本機ignored .local保存，從GitHub clone不會取得key。正式研究輸出與來源文件可公開；原始PDF、解析全文、對話runtime及真實病歷不提交。

@@ -7,4 +7,9 @@ __pycache__/
 .venv/
 node_modules/
 private-data/
-
+.local/
+literature/fulltext/
+literature/parsed/
+sessions/*/exchange_log.jsonl
+sessions/*/runtime*.json*
+*.pdf

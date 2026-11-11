@@ -59,3 +59,4 @@
 | REF-051 | [程式](https://github.com/zinojeng/AI-agent-in-diabetes/blob/6180c4f2a56ae50ca5b6ec22e4795f7922a63a3f/src/dm_care_pipeline/risk.py) | [既有 GitHub 專案的延伸方向](../docs/09-existing-project-and-gaps.md) |
 | REF-052 | [程式](https://github.com/zinojeng/AI-agent-in-diabetes/blob/6180c4f2a56ae50ca5b6ec22e4795f7922a63a3f/src/dm_care_pipeline/pre_visit_brief.py) | [既有 GitHub 專案的延伸方向](../docs/09-existing-project-and-gaps.md) |
 
+本輪補充：[新增40筆研究/工具索引](references_update_20261111.md)，與原有52網址有重疊，不能直接相加。

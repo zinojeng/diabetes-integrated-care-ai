@@ -1,0 +1,9 @@
+claim_id,claim,codex_status,claude_status,source_locator,decision
+C01,JADE改善達標不等於降低臨床事件,research_checked,pending_no_session,PMID33929522,保留硬終點陰性
+C02,KFRE三種baseline survival版本不同,primary_supplement_checked,pending_no_session,JAMA2016 eAppendix2 PDF p9,逐版列出且不混用
+C03,INDEPENDENT abstract57.4vsTable2 54.7,primary_fulltext_checked,pending_no_session,JAMA2020 Table2 and Abstract,採Table2並保留來源不一致註記
+C04,DCSI上限13且neuropathy最高1,primary_fulltext_checked,pending_no_session,PMC3810070 Table1,更正為0至13
+C05,PAID原始六點與現行0至4版本不同,research_checked,pending_no_session,PMID7555499 and current NDSS form,版本固定且不由原始摘要推現行計分
+C06,ACCESS改善篩檢完成未證實降低失明,primary_fulltext_checked,pending_no_session,NatCommun2024 ACCESS primary outcome,分開流程與病人結局
+C07,Claude已收到第一份回覆,not_supported,not_started,EPERM and API failure;registry empty,不得宣稱完成
+C08,LlamaParse已解析全文,not_supported,not_started,MCP list_tools only,標示未解析及key尚未驗證

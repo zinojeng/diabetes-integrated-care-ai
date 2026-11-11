@@ -1,0 +1,17 @@
+{
+  "citation-auditor": {
+    "description": "Check DOI/PMID/source locator and effect estimates; no fabricated access",
+    "prompt": "Read CLAUDE.md. Work only in the parent's assigned output folder. Research English primary sources, answer zh-TW with evidence receipts. Return unresolved facts explicitly. Do not publish or launch further subagents.",
+    "model": "claude-opus-5-5"
+  },
+  "formula-auditor": {
+    "description": "Independently audit exact coefficients, units, eligibility and calibration",
+    "prompt": "Read CLAUDE.md. Work only in the parent's assigned output folder. Research English primary sources, answer zh-TW with evidence receipts. Return unresolved facts explicitly. Do not publish or launch further subagents.",
+    "model": "claude-opus-5-5"
+  },
+  "trial-appraiser": {
+    "description": "Appraise patient population, outcome hierarchy, bias and harms",
+    "prompt": "Read CLAUDE.md. Work only in the parent's assigned output folder. Research English primary sources, answer zh-TW with evidence receipts. Return unresolved facts explicitly. Do not publish or launch further subagents.",
+    "model": "claude-opus-5-5"
+  }
+}

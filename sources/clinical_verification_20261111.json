@@ -1,0 +1,30 @@
+{
+  "verified_on": "2026-11-11",
+  "timezone": "Asia/Taipei",
+  "reviewer": "Codex independent clinical evidence verification",
+  "review_type": "targeted primary-source verification; not a systematic review",
+  "full_pdf_downloaded": false,
+  "llamaparse_completed": false,
+  "claude_cross_session_review_completed": false,
+  "primary_study_count": 12,
+  "studies": [
+    {"name":"Steno-2","year":2003,"pmid":"12556541","doi":"10.1056/NEJMoa021778","url":"https://pubmed.ncbi.nlm.nih.gov/12556541/","access":"PubMed abstract","n_randomized":160,"finding":"7.8年多重風險介入 CVD HR 0.47 (0.24–0.73)","limitation":"T2D+microalbuminuria；非AI，不能分離多組件效果"},
+    {"name":"Steno-2 long-term follow-up","year":2016,"pmid":"27531506","doi":"10.1007/s00125-016-4065-6","url":"https://pubmed.ncbi.nlm.nih.gov/27531506/","access":"PubMed abstract","n_randomized_original":160,"finding":"21.2年死亡 HR 0.55 (0.36–0.83)；median survival差7.9年","limitation":"差異介入僅前7.8年，其後兩組皆intensive"},
+    {"name":"ADDITION-Europe 10-year follow-up","year":2019,"pmid":"31748169","doi":"10.1016/S2213-8587(19)30349-3","url":"https://www.sciencedirect.com/science/article/pii/S2213858719303493","access":"Publisher abstract and PubMed metadata","n_enrolled":3057,"n_10year_analysis":3031,"finding":"CVD HR 0.87 (0.73–1.04)；mortality HR 0.90 (0.76–1.07)","limitation":"兩者未顯著；5年後未維持治療差異；post-hoc follow-up"},
+    {"name":"TEAMcare","year":2010,"pmid":"21190455","doi":"10.1056/NEJMoa1003955","url":"https://pubmed.ncbi.nlm.nih.gov/21190455/","access":"PubMed abstract; PMC not retrieved","n_randomized":214,"finding":"12月多指標整體改善；HbA1c改善差0.58 percentage points，SCL20差0.40","limitation":"非AI；未證明器官事件降低"},
+    {"name":"INDEPENDENT","year":2020,"pmid":"32809002","doi":"10.1001/jama.2020.11747","url":"https://jamanetwork.com/journals/jama/fullarticle/2769466","access":"Publisher HTML full-text relevant sections and Table 2","n_randomized":404,"finding":"24月複合終點71.6% vs54.7%；RD16.9pp (8.5–25.2)；severe hypoglycemia8 vs0","source_discrepancy":"Abstract comparator57.4%; Table2/body54.7%","limitation":"複合終點不是所有代謝指標皆改善；12個月active intervention"},
+    {"name":"CARRS 6.5-year follow-up","year":2024,"pmid":"38829880","doi":"10.1371/journal.pmed.1004335","url":"https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004335","access":"Publisher HTML methods/results","n_randomized_original":1146,"n_6_5year_assessment":854,"finding":"Micro/macrovascular composite HR0.72 (0.61–0.86)；microvascular HR0.68 (0.56–0.83)","limitation":"Post-hoc；6站持續4站停止；macrovascular未顯著；傳統CDS+個管"},
+    {"name":"REDEEM","year":2013,"pmid":"23735726","doi":"10.2337/dc12-2493","url":"https://pubmed.ncbi.nlm.nih.gov/23735726/","access":"PubMed abstract","n_randomized":392,"finding":"三組distress與self-management改善；整體組間無差異；HbA1c無變化","limitation":"非臨床depression的T2D+distress族群；不是generative AI"},
+    {"name":"Autonomous DR pivotal trial","year":2018,"pmid":"31304320","doi":"10.1038/s41746-018-0040-6","url":"https://pubmed.ncbi.nlm.nih.gov/31304320/","access":"PubMed abstract","n_enrolled":900,"finding":"Sensitivity87.2%；specificity90.7%；imageability96.1%","limitation":"900為收案數，不是每個效能分母；diagnostic accuracy非失明結局"},
+    {"name":"ACCESS","year":2024,"pmid":"38212308","doi":"10.1038/s41467-023-44676-z","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC10784572/","access":"PMC HTML results and Table 3","n_randomized":164,"randomized_arms":[81,83],"primary_analysis_arms":[81,82],"finding":"篩檢81/81 vs18/82；AI異常後眼科追蹤16/25","limitation":"1名對照誤納另研究排除；abnormal-subgroup與全control分母不同；未評估失明"},
+    {"name":"Voice-based basal insulin AI","year":2023,"pmid":"38039007","doi":"10.1001/jamanetworkopen.2023.40232","url":"https://pubmed.ncbi.nlm.nih.gov/38039007/","access":"PubMed abstract","n_randomized":32,"finding":"8週；optimal dose中位15 vs>56天；adherence82.9% vs50.2%","limitation":"小型特定任務；非全共病整合或長期安全性證明"},
+    {"name":"iNCDSS","year":2025,"pmid":"40332936","doi":"10.1001/jamanetworkopen.2025.8910","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC12059970/","access":"PMC HTML methods/results","n_randomized":149,"finding":"5日TIR76.4% vs73.6%；差2.7pp (-2.7–8.0)，達-6pp非劣性界值","limitation":"每日醫師覆核；排除嚴重心肝腎及心理/精神疾病等；非自主處方"},
+    {"name":"GPT-4 complex T2D personalized treatment plan assessment","year":2025,"pmid":"41140742","doi":"10.2337/cd25-0015","url":"https://diabetesjournals.org/clinical/article/43/4/545/163246/Assessment-of-Large-Language-Models-for-Enhancing","access":"PubMed abstract and indexed publisher methods excerpts; full page returned403","n_clinical_notes":243,"n_notes_selected_for_task_evaluations":230,"task_sets":[115,115],"finding":"40% reasoning/explanations被專家認為有幫助","limitation":"非臨床前瞻介入；notes不是病人結局人數；有脈絡錯誤"}
+  ],
+  "guidelines": [
+    {"name":"EASD diabetes distress guideline","pmid":"42744915","doi":"10.1007/s00125-026-06840-0","url":"https://pubmed.ncbi.nlm.nih.gov/42744915/","online_date":"2026-09-15","issue":"2026 Dec","access":"PubMed abstract","finding":"八項good practice statements；依T1D/T2D提供conditional介入建議","limitation":"不得把conditional改稱高確定性普遍療效"}
+  ],
+  "search_counts": null,
+  "formal_risk_of_bias_completed": false,
+  "recommended_corrections": ["ACCESS主要分析分母與referral分母","iNCDSS醫師覆核及多重共病適用限制","GPT4 notes與task分母","CARRS追蹤資料完整度","ADDITION2019 DOI補入","保留INDEPENDENT來源不一致與hypoglycemia"]
+}

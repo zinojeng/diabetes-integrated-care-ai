@@ -31,7 +31,7 @@
 | ADDITION-Europe | 3,057 名篩檢發現 T2D；基層團隊多重因子處理 | 5 年 CVD HR 0.83（0.65–1.05）；10 年 HR 0.87（0.73–1.04） | 均未達顯著，不能只選 Steno-2 推論所有病人皆有同等效益。[5年](https://pubmed.ncbi.nlm.nih.gov/21705063/)、[10年](https://pubmed.ncbi.nlm.nih.gov/31748169/) |
 | J-DOIT3 | 2,542 名日本 T2D，median 8.5 年 | 主要複合終點 HR 0.81（0.63–1.04），p=0.094 | 非嚴重低血糖 41% vs22%；更密集不必然等於更適當。[PMID29079252](https://pubmed.ncbi.nlm.nih.gov/29079252/) |
 | CARRS，2016 | 1,146 名控制不佳 T2D，care coordinator＋EHR CDS | 多重目標達成 RR 2.24（1.71–2.92）；HbA1c 組間差約−0.50 percentage points | 組合式介入，不能單獨歸因軟體；不是 LLM。[PMID27398874](https://pubmed.ncbi.nlm.nih.gov/27398874/) |
-| CARRS，6.5 年延伸分析 | 原隨機組 post-hoc follow-up | Micro/macrovascular 首發複合 HR 0.72（0.61–0.86）；microvascular HR 0.68（0.56–0.83） | Macrovascular 無明確差異；效益見於持續介入站點。後續追蹤與介入持續性須交代。[PMID38829880](https://pubmed.ncbi.nlm.nih.gov/38829880/) |
+| CARRS，6.5 年延伸分析 | 原隨機組 post-hoc follow-up；6.5年評估資料854/1,146人（74.5%） | Micro/macrovascular 首發複合 HR 0.72（0.61–0.86）；microvascular HR 0.68（0.56–0.83） | Macrovascular 無明確差異；效益見於持續介入站點。後續追蹤與介入持續性須交代。[PMID38829880](https://pubmed.ncbi.nlm.nih.gov/38829880/) |
 | JADE，2021 | 20,834 人、8 國50中心；結構化評估、個人報告、護理聯繫 | 12 個月多重心代謝目標改善，臨床事件未顯著減少 | 短期達標與事件效益須分開。[PMID33929522](https://pubmed.ncbi.nlm.nih.gov/33929522/) |
 | JADE-DKD，2022 | 2,393 名 DKD，結構化回饋與 team-based empowered care | 支持多重治療目標改善 | 達標者事件較少的關聯，不是隨機組間硬終點因果效益。[PMID35333363](https://pubmed.ncbi.nlm.nih.gov/35333363/) |
 | Taiwan P4P，2016／2020 | 配對健保資料世代 | 死亡 HR 0.76／aHR0.58 | 觀察關聯仍有選案、健康參與者及殘餘混雜。[2016](https://pubmed.ncbi.nlm.nih.gov/27399144/)、[2020](https://pubmed.ncbi.nlm.nih.gov/32049836/) |
@@ -70,15 +70,17 @@ Diabetes distress 是與疾病及自我管理相關的情緒負擔，與 depress
 
 實作上，先邀請病人說出最困擾的部分，再選擇 PHQ-9/GAD-7、DDS/PAID 或 WHO-5 等適用量表；篩檢陽性連到真人評估與可提供的服務。PHQ-9第9題陽性需即時人工評估，不能因總分低而自動略過；量表不得由LLM代答。減少注射/監測負擔、協調工作時段或處理交通費用，有時比新增衛教訊息更直接，但須以個別情境確認。
 
+2026年CIC-PDD cluster RCT的utilization分析提供另一項提醒：630名T2D合併depression患者，整合照護275人、usual care355人；12個月門診次數增加（組間差1.35，95%CI0.45–2.24），自付費用也增加。因此不能預設整合照護一定降低短期成本；需同時評估未滿足需求與病人負擔。這是傳統整合照護，不是AI試驗。本輪只核對PubMed索引摘要，尚未核讀完整成本方法。[PMID42476944](https://pubmed.ncbi.nlm.nih.gov/42476944/)、[DOI](https://doi.org/10.1093/aje/kwag175)。
+
 ## 6. AI 的證據到底支持到哪一層
 
 | 證據層次 | 已有例子與結果 | 可以說什麼 | 尚不能說什麼 |
 | --- | --- | --- | --- |
 | Diagnostic accuracy | Autonomous DR pivotal study，900人，sensitivity87.2%、specificity90.7% | 特定設備/族群/影像任務的診斷效能 | 全器官照護有效或降低失明。[PMID31304320](https://pubmed.ncbi.nlm.nih.gov/31304320/) |
-| Care process | ACCESS，164名8–21歲T1D/T2D，眼底檢查完成100%vs22%；異常者16/25完成後續眼科 | 在該場域大幅改善篩檢完成 | 失明下降；仍有36%異常者未完成追蹤。[PMID38212308](https://pubmed.ncbi.nlm.nih.gov/38212308/) |
+| Care process | ACCESS，164名8–21歲T1D/T2D，隨機81/83人；主要分析眼底檢查完成81/81（100%）vs18/82（22%）；AI異常者16/25完成後續眼科 | 在該場域大幅改善篩檢完成 | 失明下降；仍有9/25異常者未完成追蹤。異常subgroup與全對照的分母不同，不能直接當成相同條件轉介率比較。[PMID38212308](https://pubmed.ncbi.nlm.nih.gov/38212308/) |
 | Intermediate outcomes | Voice-based basal insulin AI，32人8週，達optimal dose中位15vs>56天 | 受控、短期titration流程的潛力 | 開放式LLM可自由處方或長期安全。[PMID38039007](https://pubmed.ncbi.nlm.nih.gov/38039007/) |
-| Intermediate outcomes | iNCDSS，149名住院T2D，5天，TIR76.4%vs73.6%，符合預設noninferiority | 選定病房與族群的短期非劣性 | ICU、steroid、nutrition support等未納入情境可直接泛用。[PMID40332936](https://pubmed.ncbi.nlm.nih.gov/40332936/) |
-| Retrospective/vignette LLM evaluation | GPT-4複雜T2D243份notes；2026 RAG-CGM12cases、288responses | 可研究摘要、解說與診前準備；也顯示脈絡錯誤 | 專家評分高即臨床優於醫師，或能減少器官事件。[GPT4](https://pubmed.ncbi.nlm.nih.gov/41140742/)、[RAG-CGM](https://pubmed.ncbi.nlm.nih.gov/42544991/) |
+| Intermediate outcomes | iNCDSS，149名住院T2D，5天，TIR76.4%vs73.6%，符合預設noninferiority | 選定病房與族群、醫師每日覆核確認建議下的短期非劣性 | ICU、steroid、nutrition support等未納入情境可直接泛用；嚴重心/肝/腎與心理疾病亦被排除，並非無人監督處方。[PMID40332936](https://pubmed.ncbi.nlm.nih.gov/40332936/) |
+| Retrospective/vignette LLM evaluation | GPT-4複雜T2D243份notes（專家評估抽230份，分兩組115）；2026 RAG-CGM12cases、288responses | 可研究摘要、解說與診前準備；也顯示脈絡錯誤 | 專家評分高即臨床優於醫師，或能減少器官事件。[GPT4](https://pubmed.ncbi.nlm.nih.gov/41140742/)、[RAG-CGM](https://pubmed.ncbi.nlm.nih.gov/42544991/) |
 | Patient-important outcomes | Steno-2、CARRS長期追蹤支持部分整合照護效益 | 多重風險管理、個管與持續介入有重要作用 | 將這些傳統介入的硬終點效益歸因generative AI |
 
 ## 7. 建議的 AI 整合架構
@@ -119,3 +121,4 @@ flowchart TD
 | 長期效益 | 器官結局、hospitalization、QoL、費用 | 將流程或AUC當作硬終點替代證據 |
 
 較合適的研究主張是：**AI是否能在既有跨專業團隊中，使多器官與心理照護更完整、及時且可持續，同時降低病人與團隊負擔？** 其效益需要由流程到病人結局逐層證明。
+

@@ -74,7 +74,9 @@ FIB-4 = age(years) × AST(U/L)
         / [platelets(10^9/L) × sqrt(ALT(U/L))]
 ```
 
-原始模型來自HIV/HCV族群，後用於MASLD纖維化分流。[PMID16729309](https://pubmed.ncbi.nlm.nih.gov/16729309/)。現代T2D照護常以<1.3較低風險、≥1.3接VCTE/ELF，>2.67高風險可評估hepatology；較高齡者的低端門檻約2.0，須按採用指引版本及年齡規定。<35歲及急性疾病準確性有限；低值亦不能保證排除T2D病人的advanced fibrosis。[ADA2026 Section4](https://doi.org/10.2337/dc26-S004)。
+原始模型來自HIV/HCV族群，後用於MASLD纖維化分流。[PMID16729309](https://pubmed.ncbi.nlm.nih.gov/16729309/)。現代T2D照護常以<1.3較低風險、≥1.3接VCTE/ELF，>2.67高風險可評估hepatology；較高齡門檻須固定版本：ADA2026對diabetes年齡≥65歲採1.9–2.0，AASLD2023文字為>65歲且cutoff>2.0。<35歲及急性疾病準確性有限；低值亦不能保證排除T2D病人的advanced fibrosis。[ADA2026 Section4](https://doi.org/10.2337/dc26-S004)。
+
+ADA2026另提醒：T2D合併多個cardiometabolic risk factors，即使FIB-4為1.0–1.3仍可能需進一步評估；不能用單一低值排除所有高風險者。來源與界線詳見[獨立查核](../research/VERIFICATION_CALCULATORS_20261111.md)。
 
 Platelets若標示10³/µL，數值與10⁹/L一致；若是每µL的原始count必須換算。FIB-4不是MASH確診、fibrosis stage或未來肝硬化的百分比。不能只根據ALT正常跳過評估。
 
@@ -84,7 +86,7 @@ Platelets若標示10³/µL，數值與10⁹/L一致；若是每µL的原始count
 | --- | --- | --- |
 | SCORE2-Diabetes | 歐洲T2D初級預防，常用40–69歲、無ASCVD或severe target-organ damage；10年fatal/nonfatal MI或stroke | 本次未逐項轉錄所有sex-specific係數與地區recalibration，**spec_only**。不得替臺灣任選歐洲區域。[PMID37247330](https://pubmed.ncbi.nlm.nih.gov/37247330/)、[ESC2023](https://doi.org/10.1093/eurheartj/ehad192) |
 | RECODe | 不同方程各估nephropathy、retinopathy、neuropathy、MI、stroke、HF、死亡 | 原始ACCORD及外部驗證；**每種outcome一條方程**，不是總分。完整coefficients/transforms/baseline survival未逐項實作。[PMID28803840](https://pubmed.ncbi.nlm.nih.gov/28803840/)、[validation PMID29269511](https://pubmed.ncbi.nlm.nih.gov/29269511/) |
-| PREVENT | 適用無已知CVD者，10年30–79歲、30年30–59歲；CVD/ASCVD/HF不同端點 | 需用當前AHA公式；2026-10-14 HbA1c相關更新為原稿已列來源，本次未重新逐係數驗證。[AHA官方](https://professional.heart.org/en/guidelines-and-statements/prevent-calculator) |
+| PREVENT | 適用無已知CVD者，10年30–79歲、30年30–59歲；CVD/ASCVD/HF不同端點 | 需用當前AHA公式；2026-10-14官方HbA1c修正已確認，影響HbA1c add-on與full模型；base與僅UACR/SDI版本不受影響。完整修正係數與測試向量仍待驗證，保持spec_only。[官方FAQ](https://professional.heart.org/-/media/PHD-Files/Guidelines-and-Statements/PREVENT/PREVENT-Update-FAQ-101426.pdf)。[AHA官方](https://professional.heart.org/en/guidelines-and-statements/prevent-calculator) |
 | WATCH-DM | 無既往HF的T2D，5年HF hospitalization | 使用發表的確切point或continuous版本，勿混用。[PMID31519694](https://pubmed.ncbi.nlm.nih.gov/31519694/) |
 | UKPDS Risk Engine | 與UKPDS相近者的CHD/stroke初級預防 | 與UKPDS Outcomes Model不同；依Oxford官方FAQ、下載及授權，現代臺灣校準待驗。[Oxford FAQ](https://www.rdm.ox.ac.uk/about/our-facilities-and-units/DTU/software/risk-engine/faq) |
 | Karter hypoglycemia tool | T2D未來12個月因低血糖急診/住院 | 不是所有CGM低值或輕度低血糖；需核對原始風險分類、藥物與既往事件輸入。[原文](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2649265) |
@@ -102,7 +104,9 @@ Platelets若標示10³/µL，數值與10⁹/L一致；若是每µL的原始count
 | GAD-7 | 7題各0–3，sum0–21；5/10/15為常用界線；≥10進一步評估 | Anxiety症狀；不是CVD風險模型。[PMID16717171](https://pubmed.ncbi.nlm.nih.gov/16717171/) |
 | DDS17 legacy | 17題各1–6，mean=sum/17；<2 low、2–2.9 moderate、≥3 high distress | 四分量表可定位emotional、regimen、interpersonal、physician distress。不可與DDS2或新T2-DDAS29題互換。[development](https://pubmed.ncbi.nlm.nih.gov/15735199/)、[cutoffs](https://pubmed.ncbi.nlm.nih.gov/22228744/) |
 | PAID20現行常用版 | 20題各0–4，sum×1.25→0–100；≥40常用high distress | 原始1995研究為六點選項，不能只引原始摘要驗證現行計分。PAID5不可套本公式。[原始](https://pubmed.ncbi.nlm.nih.gov/7555499/)、[現行NDSS說明](https://www.ndss.com.au/health-professionals/supporting-emotional-health/mental-health-questionnaires/paid-scale/) |
-| WHO-5 | 5題各0–5，raw0–25×4→0–100，越高越好；raw<13常用進一步評估門檻 | 正向well-being。文獻常寫standard≤50，但合法分數為4的倍數，實際raw≤12對應≤48。[WHO2024](https://www.who.int/publications/m/item/WHO-UCN-MSD-MHE-2024.01) |
+| WHO-5 | 5題各0–5，raw0–25×4→0–100，越高越好；raw<13常用進一步評估門檻 | 正向well-being。WHO官方採percentage<50或raw<13；完整答題的合法分數為4的倍數，實際raw≤12對應≤48。[WHO2024](https://www.who.int/publications/m/item/WHO-UCN-MSD-MHE-2024.01) |
+
+DDS17的「2–2.9」在程式規格需明確處理連續平均值，例如2.94；建議保存原始平均，以<2／2≤x<3／≥3分類並由量表負責人核定，不先四捨五入造成分類改變。這是實作邊界澄清，不是新增臨床cutoff。
 
 PHQ-9/GAD-7的重製一般不需額外許可，但翻譯驗證仍須查核；WHO2024採CC BY-NC-SA3.0IGO，不能說所有工具皆可無限制商用。DDS/PAID各版本及翻譯條件需與權利人確認。缺答不可靜默補零或依病歷推答案；若特定正式版允許缺答處理，需明列規則與有效題數。
 
@@ -111,3 +115,4 @@ PHQ-9/GAD-7的重製一般不需額外許可，但翻譯驗證仍須查核；WHO
 每筆結果保留：`instrument, version, formula_source, endpoint, horizon, eligibility, units, input_dates, missingness, calibration_region, result, interpretation, action_owner, clinician_review`。
 
 Calculator驗證至少包含：原文向量核對、mg/g與mg/mmol換算一致、邊界年齡/分期、非正值拒算、缺值拒算、超出族群不輸出、跨地區版本差異；心理量表另驗證方向、題數、上限及警示不被總分覆蓋。通過公式測試仍不代表本地校準或臨床效益驗證。
+

@@ -1,0 +1,165 @@
+{
+  "date": "2026-11-11",
+  "timezone": "Asia/Taipei",
+  "reviewer": "Codex calculator verifier",
+  "review_type": "targeted specification verification; not systematic review",
+  "primary_file": "docs/13-calculator-specifications.md",
+  "clinical_software_validated": false,
+  "taiwan_calibration_validated": false,
+  "complete_translation_or_license_review": false,
+  "entries": [
+    {
+      "id": "KFRE2016",
+      "title": "Multinational assessment of accuracy of equations for predicting risk of kidney failure: a meta-analysis",
+      "pmid": "26757465",
+      "doi": "10.1001/jama.2015.18202",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2481005",
+      "access": "full_text_and_supplement",
+      "locator": "Supplement eAppendix 2, PDF page 9 (index 8)",
+      "status": "coefficients_and_three_baseline_sets_verified",
+      "notes": "Original and regionally recalibrated originals are distinct; no production implementation or Taiwan validation."
+    },
+    {
+      "id": "KDIGO2024",
+      "title": "KDIGO 2024 CKD Guideline",
+      "url": "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf",
+      "access": "official_guideline_extract",
+      "locator": "Recommendation 2.2.1; Practice Points 2.2.1–2.2.3",
+      "status": "eligibility_and_action_thresholds_verified"
+    },
+    {
+      "id": "FIB4Original",
+      "title": "Development of a simple noninvasive index to predict significant fibrosis in patients with HIV/HCV coinfection",
+      "pmid": "16729309",
+      "doi": "10.1002/hep.21178",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16729309/",
+      "access": "pubmed_abstract",
+      "status": "formula_and_original_population_verified"
+    },
+    {
+      "id": "ADA2026S4",
+      "title": "Comprehensive Medical Evaluation and Assessment of Comorbidities: Standards of Care in Diabetes—2026",
+      "pmid": "41358897",
+      "doi": "10.2337/dc26-S004",
+      "url": "https://doi.org/10.2337/dc26-S004",
+      "access": "primary_guideline_full_text_indexed_extract",
+      "status": "fib4_thresholds_verified",
+      "notes": "Age >=65: 1.9–2.0; T2D with multiple cardiometabolic risks may need additional testing at FIB-4 1.0–1.3."
+    },
+    {
+      "id": "AASLD2023",
+      "title": "AASLD Practice Guidance on clinical assessment and management of NAFLD",
+      "pmid": "36727674",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10735173/",
+      "access": "primary_guideline_full_text_indexed_extract",
+      "status": "age_and_acute_illness_caveats_verified"
+    },
+    {
+      "id": "PREVENT2026",
+      "title": "AHA PREVENT Equations Update FAQ, October 14, 2026",
+      "url": "https://professional.heart.org/-/media/PHD-Files/Guidelines-and-Statements/PREVENT/PREVENT-Update-FAQ-101426.pdf",
+      "access": "official_pdf_full_text",
+      "status": "update_scope_verified_coefficients_not_transcribed",
+      "notes": "HbA1c add-on and full models changed; base, UACR-only and SDI-only models unaffected."
+    },
+    {
+      "id": "PREVENTOfficial",
+      "title": "AHA PREVENT Online Calculator",
+      "url": "https://professional.heart.org/en/guidelines-and-statements/prevent-calculator",
+      "access": "official_indexed_extract_page_render_partial",
+      "status": "age_horizons_verified_full_coefficient_implementation_pending"
+    },
+    {
+      "id": "SCORE2Diabetes",
+      "title": "SCORE2-Diabetes: 10-year cardiovascular risk estimation in type 2 diabetes in Europe",
+      "pmid": "37247330",
+      "doi": "10.1093/eurheartj/ehad260",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37247330/",
+      "access": "pubmed_and_pmc_indexed_extract",
+      "status": "population_inputs_regions_verified_coefficients_pending"
+    },
+    {
+      "id": "ESC2023",
+      "title": "2023 ESC Guidelines for management of cardiovascular disease in patients with diabetes",
+      "doi": "10.1093/eurheartj/ehad192",
+      "url": "https://academic.oup.com/eurheartj/article/44/39/4043/7238227",
+      "access": "primary_guideline_full_text_indexed_extract",
+      "status": "score2_diabetes_eligibility_verified"
+    },
+    {
+      "id": "DCSI",
+      "title": "Diabetes Complications Severity Index and Risk of Mortality, Hospitalization, and Healthcare Utilization",
+      "pmid": "18197741",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3810070/",
+      "access": "full_text_and_primary_publisher_indexed_extract",
+      "status": "seven_domains_total13_neuropathy_max1_verified"
+    },
+    {
+      "id": "aDCSI",
+      "title": "Validating the adapted Diabetes Complications Severity Index in claims data",
+      "pmid": "23198714",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23198714/",
+      "access": "pubmed_abstract",
+      "status": "claims_based_no_laboratory_version_verified"
+    },
+    {
+      "id": "CCI",
+      "title": "A new method of classifying prognostic comorbidity in longitudinal studies",
+      "pmid": "3558716",
+      "doi": "10.1016/0021-9681(87)90171-8",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3558716/",
+      "access": "pubmed_abstract",
+      "status": "purpose_verified_complete_weights_and_icd_mapping_pending"
+    },
+    {
+      "id": "PHQ9",
+      "title": "The PHQ-9: Validity of a Brief Depression Severity Measure",
+      "pmid": "11556941",
+      "doi": "10.1046/j.1525-1497.2001.016009606.x",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1495268/",
+      "access": "full_text",
+      "status": "scoring_and_severity_thresholds_verified"
+    },
+    {
+      "id": "GAD7",
+      "title": "A Brief Measure for Assessing Generalized Anxiety Disorder: The GAD-7",
+      "pmid": "16717171",
+      "doi": "10.1001/archinte.166.10.1092",
+      "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/410326/",
+      "access": "full_text",
+      "status": "scoring_thresholds_two_week_window_verified"
+    },
+    {
+      "id": "DDS17Cutoffs",
+      "title": "When is diabetes distress clinically meaningful?",
+      "pmid": "22228744",
+      "doi": "10.2337/dc11-1572",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22228744/",
+      "access": "pubmed_abstract",
+      "status": "cutoffs_verified_fractional_boundary_implementation_needs_specification"
+    },
+    {
+      "id": "DDS17Scoring",
+      "title": "Diabetes Distress Assessment & Resource Center scoring",
+      "url": "https://diabetesdistress.org/dd-assess-score-3/",
+      "access": "developer_official_full_page",
+      "status": "item_ranges_mean_and_subscales_verified"
+    },
+    {
+      "id": "PAID20",
+      "title": "Assessing diabetes distress: the PAID scale",
+      "url": "https://www.ndss.com.au/health-professionals/supporting-emotional-health/mental-health-questionnaires/paid-scale/",
+      "access": "official_full_page",
+      "status": "0to4_sum_times1.25_threshold40_verified"
+    },
+    {
+      "id": "WHO5",
+      "title": "WHO Five Well-Being Index, 2024",
+      "url": "https://www.who.int/publications/m/item/WHO-UCN-MSD-MHE-2024.01",
+      "access": "official_pdf_full_text",
+      "locator": "Scoring, printed page 2 / PDF page 7",
+      "status": "score_direction_raw_times4_cutoff_license_verified"
+    }
+  ]
+}
+

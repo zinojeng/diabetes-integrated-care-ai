@@ -1,5 +1,13 @@
 # 修訂紀錄
 
+## 2026-11-11 — Mac mini啟動檢查與第二輪證據查核
+
+- 新增主機/登入/實際寫入/HTTPS檢查及Mac mini同步啟動入口，遇到EPERM即回報，不改trust或權限。
+- 補充ACCESS分母、iNCDSS醫師覆核與共病排除、CARRS追蹤完整度、PREVENT官方更新、WHO-5及DDS計分界線。
+- 新增CIC-PDD利用/成本摘要證據，evidence matrix現有41筆；同步整合主文、來源及provenance。
+- LlamaParse本機key改以標準環境變數傳入，生成設定先限制0600；未宣稱完成parse。
+- 明列Codex與Claude原生session messaging的界線，保留未完成的Mac mini實測與Claude ACK。
+
 ## 2026-11-11 — 深入研究、公式查核與Opus5.5工作流程
 
 - 保留原稿與archive，新增整合照護/心理/AI證據、陰性試驗及40筆evidence matrix。
@@ -20,3 +28,4 @@
 - 加入 README、52 個來源網址索引與版本紀錄。
 - 區分文件設計、既有程式實作與臨床驗證狀態。
 - 本次僅整理既有研究內容，未重新執行全面文獻搜尋或臨床驗證。
+

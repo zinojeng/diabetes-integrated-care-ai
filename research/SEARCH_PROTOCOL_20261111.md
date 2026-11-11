@@ -70,3 +70,8 @@
 優先指南、RCT、prospective diagnostic/validation與有比較組的實施研究；觀察研究與回顧分開標示。每篇保留design、population、n、setting、intervention/comparator、time、primary/secondary/post-hoc、effect/CI、harms、bias、PMID/DOI及access level。陰性結果、來源內部不一致和工具失敗均保留。未拿到的全文寫abstract_only，不宣稱完整附錄查核。
 
 本輪正式Claude交叉審查未完成。Codex平行研究協助的結果不能冒充Claude Opus回覆；最後主文由Codex整理及查核。實際狀態見[execution status](../workflow/EXECUTION_STATUS_20261111.md)。
+
+
+## 本次追加查核
+
+主查詢：`diabetes integrated care artificial intelligence complications multimorbidity psychological randomized trial 2026`；`diabetes distress guideline EASD 2026 42744915`；`PREVENT October 2026 HbA1c correction`，另按PMID核對原試驗。新增CIC-PDD（PMID42476944）採PubMed搜尋索引中的完整摘要；直接頁面僅回傳不完整內容，全文成本方法未核讀。其餘查核的來源層級列於兩份VERIFICATION文件。沒有把網路搜尋結果數當成PubMed資料庫命中數。

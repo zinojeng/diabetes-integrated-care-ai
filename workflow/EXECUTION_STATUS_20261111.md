@@ -2,6 +2,17 @@
 
 日期：2026-11-11，Asia/Taipei。
 
+## 最新工作階段補充
+
+- 執行主機為MacBook Air；Claude2.1.321顯示Opus5.5但session-env初始化EPERM；auth status為false，agent registry為[]。未得到assistant研究回覆。
+- SSH到既有Mac mini alias回報Operation not permitted，尚未連線；Mac mini狀態未知。
+- UI可見Terminal與ScreenSharing在執行，但Terminal讀取被安全限制拒絕；未繞過限制。
+- Codex完成兩份獨立證據查核並修訂主文，新增Mac mini啟動前檢查與bootstrap；見MACMINI_QUICKSTART.md。
+- 本輪未將使用者貼出的key寫入檔案或GitHub，沒有PDF下載/解析成功收據。MCP工具未在本輪直接呼叫成功。
+- 以下表格為上一個工作階段保留紀錄，不能當成本次MacBook Air或Mac mini的最新狀態。
+
+## 上一工作階段紀錄
+
 | 工作 | 觀察結果 | 是否完成 |
 | --- | --- | --- |
 | 原始GitHub內容讀取 | 已讀README、AGENTS、11章單檔、架構/AI章、provenance；原始main commit `2c5850c310e4a63c26ff024910bd94cfc5a8232c` | 已完成讀取範圍 |
@@ -35,3 +46,4 @@
 macOS檔案擁有者為ander，未見異常owner。全域Codex設定讀到sandbox_mode=danger-full-access，但本輪下發的managed workspace-write及restricted network優先適用；有效可寫範圍不含Claude狀態目錄及medical目錄。Anthropic、GitHub、PubMed三個主機在同一程序皆DNS失敗。沒有歷史有效權限快照，不能斷言是哪天或哪次更新造成差異。
 
 需由一般Mac Terminal或具有所需有效寫入/網路權限的新工作階段續作。本輪沒有自行修改全域安全設定或繞過sandbox。
+

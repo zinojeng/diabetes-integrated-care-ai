@@ -51,6 +51,18 @@
       "pdf_download_status": "not_completed",
       "llamaparse_status": "tools_listed_no_parse",
       "base_repository_commit": "2c5850c310e4a63c26ff024910bd94cfc5a8232c"
+    },
+    {
+      "date": "2026-11-11",
+      "type": "codex_independent_audit_and_macmini_launch_preflight",
+      "clinical_audit": "research/VERIFICATION_CLINICAL_20261111.md",
+      "calculator_audit": "research/VERIFICATION_CALCULATORS_20261111.md",
+      "evidence_matrix_records": 41,
+      "added_pmid": "42476944",
+      "claude_review_status": "blocked_no_completion",
+      "macmini_status": "ssh_denied_not_observed",
+      "llamaparse_status": "not_run",
+      "runtime_secret_committed": false
     }
   ]
 }

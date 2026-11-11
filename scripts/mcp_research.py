@@ -3,6 +3,7 @@
 import argparse, asyncio, json, os, pathlib
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
+from claude_workflow import mcp_config
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
@@ -13,7 +14,8 @@ async def main():
     ap.add_argument('--arguments', default='{}')
     ap.add_argument('--timeout', type=int, default=35)
     a = ap.parse_args()
-    config = json.loads((pathlib.Path.home()/'.claude.json').read_text())
+    selected_config, _ = mcp_config()
+    config = json.loads(selected_config.read_text())
     item = config.get('mcpServers', {}).get(a.server)
     if not item:
         raise SystemExit('MCP server not configured: '+a.server)
@@ -24,8 +26,9 @@ async def main():
         if cached.exists():
             item = {**item, 'command': str(cached), 'args': ['-m', 'paper_search_mcp.server']}
     if a.server == 'llamaparse':
-        env.pop('LLAMA_CLOUD_API_KEY', None)
-        env['LLAMA_CLOUD_API_KEY_FILE'] = str(ROOT/'.local/llamaparse.key')
+        key = ROOT/'.local/llamaparse.key'
+        if key.exists(): env['LLAMA_CLOUD_API_KEY'] = key.read_text().strip()
+        env.pop('LLAMA_CLOUD_API_KEY_FILE', None)
     params = StdioServerParameters(command=item['command'], args=item.get('args', []), env=env, cwd=str(ROOT))
     async with asyncio.timeout(a.timeout):
         async with stdio_client(params) as (read, write):
@@ -40,3 +43,4 @@ if __name__ == '__main__':
     try: asyncio.run(main())
     except TimeoutError: raise SystemExit('MCP timeout; completion not verified.')
     except Exception as e: raise SystemExit('MCP failed: '+type(e).__name__+'; no verified result.')
+

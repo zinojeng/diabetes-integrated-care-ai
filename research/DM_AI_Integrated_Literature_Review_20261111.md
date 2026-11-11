@@ -1,8 +1,8 @@
 # 糖尿病門診複雜度、併發症與 AI 跨專業整合照護：文獻整合稿
 
 整理日期：2026-11-11（台灣時間）  
-資料範圍：原有11章與52個來源網址，新增整合照護、AI、心理證據與calculator規格；新增來源表含40筆研究/工具紀錄，與原索引有重疊。  
-本次工作：保留既有整合稿，補充英文PubMed索引及primary sources主題式檢索與查核；包含公式版本、陰性證據、來源衝突與執行限制。未完成全面資料庫匯出及正式雙人篩選，不是系統性回顧；Claude獨立審查仍待完成。
+資料範圍：原有11章與52個來源網址，新增整合照護、AI、心理證據與calculator規格；新增來源表含41筆研究/工具紀錄，與原索引有重疊。  
+本次工作：保留既有整合稿，補充英文PubMed索引及primary sources主題式檢索與查核；包含公式版本、陰性證據、來源衝突與執行限制。未完成全面資料庫匯出及正式雙人篩選，不是系統性回顧；Claude獨立審查仍待完成。本輪另完成Codex臨床與calculator獨立查核，補充2026年CIC-PDD成本/利用資料；未新增成功PDF解析。
 
 ## 閱讀重點
 
@@ -390,7 +390,7 @@ DCSI 或既有病歷可以提供疾病與風險線索，但當下的飲食困難
 
 ## 糖尿病併發症與全人整合照護：新增證據與落地架構
 
-查核日期：2026-11-11，Asia/Taipei。以英文檢索 PubMed 索引、PMC、原始期刊與官方指引；這是針對臨床問題的主題式證據綜整，未完成全面去重、雙人篩選及正式 risk-of-bias 表，不能稱 systematic review。既有第 1–11 章保留；本章補強原稿的療效界線、心理介入及 AI 可驗證用途。完整檢索規格見 [SEARCH_PROTOCOL](../research/SEARCH_PROTOCOL_20261111.md)，來源與效應值見 [evidence matrix](../sources/evidence_matrix_20261111.csv)。
+查核日期：2026-11-11，Asia/Taipei。以英文檢索 PubMed 索引、PMC、原始期刊與官方指引；這是針對臨床問題的主題式證據綜整，未完成全面去重、雙人篩選及正式 risk-of-bias 表，不能稱 systematic review。既有第 1–11 章保留；本章補強原稿的療效界線、心理介入及 AI 可驗證用途。完整檢索規格見 [SEARCH_PROTOCOL](SEARCH_PROTOCOL_20261111.md)，來源與效應值見 [evidence matrix](../sources/evidence_matrix_20261111.csv)。
 
 ### 1. 核心結論
 
@@ -421,7 +421,7 @@ DCSI 或既有病歷可以提供疾病與風險線索，但當下的飲食困難
 | ADDITION-Europe | 3,057 名篩檢發現 T2D；基層團隊多重因子處理 | 5 年 CVD HR 0.83（0.65–1.05）；10 年 HR 0.87（0.73–1.04） | 均未達顯著，不能只選 Steno-2 推論所有病人皆有同等效益。[5年](https://pubmed.ncbi.nlm.nih.gov/21705063/)、[10年](https://pubmed.ncbi.nlm.nih.gov/31748169/) |
 | J-DOIT3 | 2,542 名日本 T2D，median 8.5 年 | 主要複合終點 HR 0.81（0.63–1.04），p=0.094 | 非嚴重低血糖 41% vs22%；更密集不必然等於更適當。[PMID29079252](https://pubmed.ncbi.nlm.nih.gov/29079252/) |
 | CARRS，2016 | 1,146 名控制不佳 T2D，care coordinator＋EHR CDS | 多重目標達成 RR 2.24（1.71–2.92）；HbA1c 組間差約−0.50 percentage points | 組合式介入，不能單獨歸因軟體；不是 LLM。[PMID27398874](https://pubmed.ncbi.nlm.nih.gov/27398874/) |
-| CARRS，6.5 年延伸分析 | 原隨機組 post-hoc follow-up | Micro/macrovascular 首發複合 HR 0.72（0.61–0.86）；microvascular HR 0.68（0.56–0.83） | Macrovascular 無明確差異；效益見於持續介入站點。後續追蹤與介入持續性須交代。[PMID38829880](https://pubmed.ncbi.nlm.nih.gov/38829880/) |
+| CARRS，6.5 年延伸分析 | 原隨機組 post-hoc follow-up；6.5年評估資料854/1,146人（74.5%） | Micro/macrovascular 首發複合 HR 0.72（0.61–0.86）；microvascular HR 0.68（0.56–0.83） | Macrovascular 無明確差異；效益見於持續介入站點。後續追蹤與介入持續性須交代。[PMID38829880](https://pubmed.ncbi.nlm.nih.gov/38829880/) |
 | JADE，2021 | 20,834 人、8 國50中心；結構化評估、個人報告、護理聯繫 | 12 個月多重心代謝目標改善，臨床事件未顯著減少 | 短期達標與事件效益須分開。[PMID33929522](https://pubmed.ncbi.nlm.nih.gov/33929522/) |
 | JADE-DKD，2022 | 2,393 名 DKD，結構化回饋與 team-based empowered care | 支持多重治療目標改善 | 達標者事件較少的關聯，不是隨機組間硬終點因果效益。[PMID35333363](https://pubmed.ncbi.nlm.nih.gov/35333363/) |
 | Taiwan P4P，2016／2020 | 配對健保資料世代 | 死亡 HR 0.76／aHR0.58 | 觀察關聯仍有選案、健康參與者及殘餘混雜。[2016](https://pubmed.ncbi.nlm.nih.gov/27399144/)、[2020](https://pubmed.ncbi.nlm.nih.gov/32049836/) |
@@ -460,15 +460,17 @@ Diabetes distress 是與疾病及自我管理相關的情緒負擔，與 depress
 
 實作上，先邀請病人說出最困擾的部分，再選擇 PHQ-9/GAD-7、DDS/PAID 或 WHO-5 等適用量表；篩檢陽性連到真人評估與可提供的服務。PHQ-9第9題陽性需即時人工評估，不能因總分低而自動略過；量表不得由LLM代答。減少注射/監測負擔、協調工作時段或處理交通費用，有時比新增衛教訊息更直接，但須以個別情境確認。
 
+2026年CIC-PDD cluster RCT的utilization分析提供另一項提醒：630名T2D合併depression患者，整合照護275人、usual care355人；12個月門診次數增加（組間差1.35，95%CI0.45–2.24），自付費用也增加。因此不能預設整合照護一定降低短期成本；需同時評估未滿足需求與病人負擔。這是傳統整合照護，不是AI試驗。本輪只核對PubMed索引摘要，尚未核讀完整成本方法。[PMID42476944](https://pubmed.ncbi.nlm.nih.gov/42476944/)、[DOI](https://doi.org/10.1093/aje/kwag175)。
+
 ### 6. AI 的證據到底支持到哪一層
 
 | 證據層次 | 已有例子與結果 | 可以說什麼 | 尚不能說什麼 |
 | --- | --- | --- | --- |
 | Diagnostic accuracy | Autonomous DR pivotal study，900人，sensitivity87.2%、specificity90.7% | 特定設備/族群/影像任務的診斷效能 | 全器官照護有效或降低失明。[PMID31304320](https://pubmed.ncbi.nlm.nih.gov/31304320/) |
-| Care process | ACCESS，164名8–21歲T1D/T2D，眼底檢查完成100%vs22%；異常者16/25完成後續眼科 | 在該場域大幅改善篩檢完成 | 失明下降；仍有36%異常者未完成追蹤。[PMID38212308](https://pubmed.ncbi.nlm.nih.gov/38212308/) |
+| Care process | ACCESS，164名8–21歲T1D/T2D，隨機81/83人；主要分析眼底檢查完成81/81（100%）vs18/82（22%）；AI異常者16/25完成後續眼科 | 在該場域大幅改善篩檢完成 | 失明下降；仍有9/25異常者未完成追蹤。異常subgroup與全對照的分母不同，不能直接當成相同條件轉介率比較。[PMID38212308](https://pubmed.ncbi.nlm.nih.gov/38212308/) |
 | Intermediate outcomes | Voice-based basal insulin AI，32人8週，達optimal dose中位15vs>56天 | 受控、短期titration流程的潛力 | 開放式LLM可自由處方或長期安全。[PMID38039007](https://pubmed.ncbi.nlm.nih.gov/38039007/) |
-| Intermediate outcomes | iNCDSS，149名住院T2D，5天，TIR76.4%vs73.6%，符合預設noninferiority | 選定病房與族群的短期非劣性 | ICU、steroid、nutrition support等未納入情境可直接泛用。[PMID40332936](https://pubmed.ncbi.nlm.nih.gov/40332936/) |
-| Retrospective/vignette LLM evaluation | GPT-4複雜T2D243份notes；2026 RAG-CGM12cases、288responses | 可研究摘要、解說與診前準備；也顯示脈絡錯誤 | 專家評分高即臨床優於醫師，或能減少器官事件。[GPT4](https://pubmed.ncbi.nlm.nih.gov/41140742/)、[RAG-CGM](https://pubmed.ncbi.nlm.nih.gov/42544991/) |
+| Intermediate outcomes | iNCDSS，149名住院T2D，5天，TIR76.4%vs73.6%，符合預設noninferiority | 選定病房與族群、醫師每日覆核確認建議下的短期非劣性 | ICU、steroid、nutrition support等未納入情境可直接泛用；嚴重心/肝/腎與心理疾病亦被排除，並非無人監督處方。[PMID40332936](https://pubmed.ncbi.nlm.nih.gov/40332936/) |
+| Retrospective/vignette LLM evaluation | GPT-4複雜T2D243份notes（專家評估抽230份，分兩組115）；2026 RAG-CGM12cases、288responses | 可研究摘要、解說與診前準備；也顯示脈絡錯誤 | 專家評分高即臨床優於醫師，或能減少器官事件。[GPT4](https://pubmed.ncbi.nlm.nih.gov/41140742/)、[RAG-CGM](https://pubmed.ncbi.nlm.nih.gov/42544991/) |
 | Patient-important outcomes | Steno-2、CARRS長期追蹤支持部分整合照護效益 | 多重風險管理、個管與持續介入有重要作用 | 將這些傳統介入的硬終點效益歸因generative AI |
 
 ### 7. 建議的 AI 整合架構
@@ -511,7 +513,6 @@ flowchart TD
 較合適的研究主張是：**AI是否能在既有跨專業團隊中，使多器官與心理照護更完整、及時且可持續，同時降低病人與團隊負擔？** 其效益需要由流程到病人結局逐層證明。
 
 
----
 
 ## 共病、事件風險與心理量表：Calculator 規格
 
@@ -589,7 +590,9 @@ FIB-4 = age(years) × AST(U/L)
         / [platelets(10^9/L) × sqrt(ALT(U/L))]
 ```
 
-原始模型來自HIV/HCV族群，後用於MASLD纖維化分流。[PMID16729309](https://pubmed.ncbi.nlm.nih.gov/16729309/)。現代T2D照護常以<1.3較低風險、≥1.3接VCTE/ELF，>2.67高風險可評估hepatology；較高齡者的低端門檻約2.0，須按採用指引版本及年齡規定。<35歲及急性疾病準確性有限；低值亦不能保證排除T2D病人的advanced fibrosis。[ADA2026 Section4](https://doi.org/10.2337/dc26-S004)。
+原始模型來自HIV/HCV族群，後用於MASLD纖維化分流。[PMID16729309](https://pubmed.ncbi.nlm.nih.gov/16729309/)。現代T2D照護常以<1.3較低風險、≥1.3接VCTE/ELF，>2.67高風險可評估hepatology；較高齡門檻須固定版本：ADA2026對diabetes年齡≥65歲採1.9–2.0，AASLD2023文字為>65歲且cutoff>2.0。<35歲及急性疾病準確性有限；低值亦不能保證排除T2D病人的advanced fibrosis。[ADA2026 Section4](https://doi.org/10.2337/dc26-S004)。
+
+ADA2026另提醒：T2D合併多個cardiometabolic risk factors，即使FIB-4為1.0–1.3仍可能需進一步評估；不能用單一低值排除所有高風險者。來源與界線詳見[獨立查核](VERIFICATION_CALCULATORS_20261111.md)。
 
 Platelets若標示10³/µL，數值與10⁹/L一致；若是每µL的原始count必須換算。FIB-4不是MASH確診、fibrosis stage或未來肝硬化的百分比。不能只根據ALT正常跳過評估。
 
@@ -599,7 +602,7 @@ Platelets若標示10³/µL，數值與10⁹/L一致；若是每µL的原始count
 | --- | --- | --- |
 | SCORE2-Diabetes | 歐洲T2D初級預防，常用40–69歲、無ASCVD或severe target-organ damage；10年fatal/nonfatal MI或stroke | 本次未逐項轉錄所有sex-specific係數與地區recalibration，**spec_only**。不得替臺灣任選歐洲區域。[PMID37247330](https://pubmed.ncbi.nlm.nih.gov/37247330/)、[ESC2023](https://doi.org/10.1093/eurheartj/ehad192) |
 | RECODe | 不同方程各估nephropathy、retinopathy、neuropathy、MI、stroke、HF、死亡 | 原始ACCORD及外部驗證；**每種outcome一條方程**，不是總分。完整coefficients/transforms/baseline survival未逐項實作。[PMID28803840](https://pubmed.ncbi.nlm.nih.gov/28803840/)、[validation PMID29269511](https://pubmed.ncbi.nlm.nih.gov/29269511/) |
-| PREVENT | 適用無已知CVD者，10年30–79歲、30年30–59歲；CVD/ASCVD/HF不同端點 | 需用當前AHA公式；2026-10-14 HbA1c相關更新為原稿已列來源，本次未重新逐係數驗證。[AHA官方](https://professional.heart.org/en/guidelines-and-statements/prevent-calculator) |
+| PREVENT | 適用無已知CVD者，10年30–79歲、30年30–59歲；CVD/ASCVD/HF不同端點 | 需用當前AHA公式；2026-10-14官方HbA1c修正已確認，影響HbA1c add-on與full模型；base與僅UACR/SDI版本不受影響。完整修正係數與測試向量仍待驗證，保持spec_only。[官方FAQ](https://professional.heart.org/-/media/PHD-Files/Guidelines-and-Statements/PREVENT/PREVENT-Update-FAQ-101426.pdf)。[AHA官方](https://professional.heart.org/en/guidelines-and-statements/prevent-calculator) |
 | WATCH-DM | 無既往HF的T2D，5年HF hospitalization | 使用發表的確切point或continuous版本，勿混用。[PMID31519694](https://pubmed.ncbi.nlm.nih.gov/31519694/) |
 | UKPDS Risk Engine | 與UKPDS相近者的CHD/stroke初級預防 | 與UKPDS Outcomes Model不同；依Oxford官方FAQ、下載及授權，現代臺灣校準待驗。[Oxford FAQ](https://www.rdm.ox.ac.uk/about/our-facilities-and-units/DTU/software/risk-engine/faq) |
 | Karter hypoglycemia tool | T2D未來12個月因低血糖急診/住院 | 不是所有CGM低值或輕度低血糖；需核對原始風險分類、藥物與既往事件輸入。[原文](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2649265) |
@@ -617,7 +620,9 @@ Platelets若標示10³/µL，數值與10⁹/L一致；若是每µL的原始count
 | GAD-7 | 7題各0–3，sum0–21；5/10/15為常用界線；≥10進一步評估 | Anxiety症狀；不是CVD風險模型。[PMID16717171](https://pubmed.ncbi.nlm.nih.gov/16717171/) |
 | DDS17 legacy | 17題各1–6，mean=sum/17；<2 low、2–2.9 moderate、≥3 high distress | 四分量表可定位emotional、regimen、interpersonal、physician distress。不可與DDS2或新T2-DDAS29題互換。[development](https://pubmed.ncbi.nlm.nih.gov/15735199/)、[cutoffs](https://pubmed.ncbi.nlm.nih.gov/22228744/) |
 | PAID20現行常用版 | 20題各0–4，sum×1.25→0–100；≥40常用high distress | 原始1995研究為六點選項，不能只引原始摘要驗證現行計分。PAID5不可套本公式。[原始](https://pubmed.ncbi.nlm.nih.gov/7555499/)、[現行NDSS說明](https://www.ndss.com.au/health-professionals/supporting-emotional-health/mental-health-questionnaires/paid-scale/) |
-| WHO-5 | 5題各0–5，raw0–25×4→0–100，越高越好；raw<13常用進一步評估門檻 | 正向well-being。文獻常寫standard≤50，但合法分數為4的倍數，實際raw≤12對應≤48。[WHO2024](https://www.who.int/publications/m/item/WHO-UCN-MSD-MHE-2024.01) |
+| WHO-5 | 5題各0–5，raw0–25×4→0–100，越高越好；raw<13常用進一步評估門檻 | 正向well-being。WHO官方採percentage<50或raw<13；完整答題的合法分數為4的倍數，實際raw≤12對應≤48。[WHO2024](https://www.who.int/publications/m/item/WHO-UCN-MSD-MHE-2024.01) |
+
+DDS17的「2–2.9」在程式規格需明確處理連續平均值，例如2.94；建議保存原始平均，以<2／2≤x<3／≥3分類並由量表負責人核定，不先四捨五入造成分類改變。這是實作邊界澄清，不是新增臨床cutoff。
 
 PHQ-9/GAD-7的重製一般不需額外許可，但翻譯驗證仍須查核；WHO2024採CC BY-NC-SA3.0IGO，不能說所有工具皆可無限制商用。DDS/PAID各版本及翻譯條件需與權利人確認。缺答不可靜默補零或依病歷推答案；若特定正式版允許缺答處理，需明列規則與有效題數。
 
@@ -626,3 +631,13 @@ PHQ-9/GAD-7的重製一般不需額外許可，但翻譯驗證仍須查核；WHO
 每筆結果保留：`instrument, version, formula_source, endpoint, horizon, eligibility, units, input_dates, missingness, calibration_region, result, interpretation, action_owner, clinician_review`。
 
 Calculator驗證至少包含：原文向量核對、mg/g與mg/mmol換算一致、邊界年齡/分期、非正值拒算、缺值拒算、超出族群不輸出、跨地區版本差異；心理量表另驗證方向、題數、上限及警示不被總分覆蓋。通過公式測試仍不代表本地校準或臨床效益驗證。
+
+
+
+## 本輪查核與實際執行
+
+- [臨床證據獨立查核](VERIFICATION_CLINICAL_20261111.md)
+- [Calculator獨立查核](VERIFICATION_CALCULATORS_20261111.md)
+- [Mac mini啟動及查看對話](../workflow/MACMINI_QUICKSTART.md)
+
+本文件為研究設計與證據綜整，沒有真實病人資料，未部署臨床風險引擎。Codex查核不代表Claude已完成協作。

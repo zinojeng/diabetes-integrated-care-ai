@@ -37,9 +37,14 @@ def lock():
 def mcp_config():
     source = pathlib.Path.home()/'.claude.json'
     global_config = json.loads(source.read_text()) if source.exists() else {}
+    servers = dict(global_config.get('mcpServers', {}))
+    servers.update(global_config.get('projects', {}).get(str(ROOT), {}).get('mcpServers', {}))
+    project_config = ROOT/'.mcp.json'
+    if project_config.exists():
+        servers.update(json.loads(project_config.read_text()).get('mcpServers', {}))
     selected = {}
     for name in ('research_hub', 'paper-search', 'google-scholar', 'scihub', 'llamaparse'):
-        item = global_config.get('mcpServers', {}).get(name)
+        item = servers.get(name)
         if item: selected[name] = json.loads(json.dumps(item))
     if 'research_hub' in selected:
         item = selected['research_hub']
@@ -54,13 +59,19 @@ def mcp_config():
     # All secrets remain local. Never print the generated configuration.
     if 'llamaparse' in selected:
         env = selected['llamaparse'].setdefault('env', {})
-        env.pop('LLAMA_CLOUD_API_KEY', None)
         key = LOCAL/'llamaparse.key'
-        if key.exists(): env['LLAMA_CLOUD_API_KEY_FILE'] = str(key)
+        value = key.read_text().strip() if key.exists() else os.environ.get('LLAMA_CLOUD_API_KEY')
+        if value:
+            env['LLAMA_CLOUD_API_KEY'] = value
+            env.pop('LLAMA_CLOUD_API_KEY_FILE', None)
     path = LOCAL/'mcp.research.json'
     LOCAL.mkdir(exist_ok=True)
-    path.write_text(json.dumps({'mcpServers': selected}, ensure_ascii=False, indent=2)+'\n')
-    path.chmod(0o600)
+    # Restrict permissions before writing any inherited credentials.
+    if path.is_symlink(): raise RuntimeError('Refusing symlinked local MCP configuration.')
+    fd = os.open(path, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o600)
+    os.fchmod(fd, 0o600)
+    with os.fdopen(fd, 'w') as stream:
+        stream.write(json.dumps({'mcpServers': selected}, ensure_ascii=False, indent=2)+'\n')
     return path, sorted(selected)
 
 def settings():
@@ -173,3 +184,4 @@ if __name__ == '__main__':
     try: main()
     except (RuntimeError, OSError, ValueError, subprocess.TimeoutExpired) as e:
         print('BLOCKED: '+str(e), file=sys.stderr);sys.exit(1)
+

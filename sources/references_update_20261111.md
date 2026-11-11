@@ -1,13 +1,13 @@
 # 新增文獻與公式來源索引
 
-日期：2026-11-11。下表為本輪40筆研究/工具來源紀錄；不代表40篇均取得完整PDF，亦不代表已完成正式RoB。各claim限制見evidence matrix、docs/12及docs/13。原有52網址保留於references.md；兩清單可能重疊，不能直接相加為獨立文獻數。
+日期：2026-11-11。下表為目前41筆研究/工具來源紀錄；不代表40篇均取得完整PDF，亦不代表已完成正式RoB。各claim限制見evidence matrix、docs/12及docs/13。原有52網址保留於references.md；兩清單可能重疊，不能直接相加為獨立文獻數。
 
 | 研究／工具 | 年份 | PMID | DOI |
 | --- | --- | --- | --- |
 | Steno-2 | 2003 | [12556541](https://pubmed.ncbi.nlm.nih.gov/12556541/) | [10.1056/NEJMoa021778](https://doi.org/10.1056/NEJMoa021778) |
 | Steno-2 follow-up | 2016 | [27531506](https://pubmed.ncbi.nlm.nih.gov/27531506/) | [10.1007/s00125-016-4065-6](https://doi.org/10.1007/s00125-016-4065-6) |
 | ADDITION-Europe | 2011 | [21705063](https://pubmed.ncbi.nlm.nih.gov/21705063/) | 未在本輪填入 |
-| ADDITION-Europe follow-up | 2019 | [31748169](https://pubmed.ncbi.nlm.nih.gov/31748169/) | 未在本輪填入 |
+| ADDITION-Europe follow-up | 2019 | [31748169](https://pubmed.ncbi.nlm.nih.gov/31748169/) | [10.1016/S2213-8587(19)30349-3](https://doi.org/10.1016/S2213-8587(19)30349-3) |
 | J-DOIT3 | 2017 | [29079252](https://pubmed.ncbi.nlm.nih.gov/29079252/) | [10.1016/S2213-8587(17)30327-3](https://doi.org/10.1016/S2213-8587(17)30327-3) |
 | CARRS | 2016 | [27398874](https://pubmed.ncbi.nlm.nih.gov/27398874/) | [10.7326/M15-2807](https://doi.org/10.7326/M15-2807) |
 | CARRS follow-up | 2024 | [38829880](https://pubmed.ncbi.nlm.nih.gov/38829880/) | [10.1371/journal.pmed.1004335](https://doi.org/10.1371/journal.pmed.1004335) |
@@ -45,4 +45,9 @@
 | DDS thresholds | 2012 | [22228744](https://pubmed.ncbi.nlm.nih.gov/22228744/) | [10.2337/dc11-1572](https://doi.org/10.2337/dc11-1572) |
 | PAID original | 1995 | [7555499](https://pubmed.ncbi.nlm.nih.gov/7555499/) | [10.2337/diacare.18.6.754](https://doi.org/10.2337/diacare.18.6.754) |
 
+| CIC-PDD utilization/costs | 2026 | [42476944](https://pubmed.ncbi.nlm.nih.gov/42476944/) | [10.1093/aje/kwag175](https://doi.org/10.1093/aje/kwag175) |
+
+2026-11-11追加查核：CIC-PDD為PubMed索引摘要層級；AHA PREVENT更新直接核對[2026-10-14官方FAQ](https://professional.heart.org/-/media/PHD-Files/Guidelines-and-Statements/PREVENT/PREVENT-Update-FAQ-101426.pdf)。詳細來源層級見[臨床查核](../research/VERIFICATION_CLINICAL_20261111.md)與[calculator查核](../research/VERIFICATION_CALCULATORS_20261111.md)。
+
 其他官方來源： [NIDDK CKD-EPI](https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/glomerular-filtration-rate-equations/adults)、[WHO-5](https://www.who.int/publications/m/item/WHO-UCN-MSD-MHE-2024.01)、[PAID現行NDSS](https://www.ndss.com.au/health-professionals/supporting-emotional-health/mental-health-questionnaires/paid-scale/)、[Opus5.5](https://platform.claude.com/docs/en/models/opus-5-5/overview)、[Claude agent view](https://code.claude.com/docs/en/agent-view)。
+

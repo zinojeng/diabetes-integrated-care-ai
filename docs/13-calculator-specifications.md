@@ -42,6 +42,8 @@ male:   κ=0.9, α=−0.302
 
 來源：[NIDDK adult equations](https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/glomerular-filtration-rate-equations/adults)。Scr若µmol/L先除88.4。公式為成人race-free版本；AKI、極端肌肉量、截肢、懷孕等情境須個別判斷，必要時採creatinine-cystatin C或measured GFR。**eGFR不是未來腎衰竭機率**；CKD診斷仍須慢性、albuminuria或其他腎損傷證據，不能由單次eGFR自動確診。
 
+> 2026-11-11 全文查核補充：KFRE 原始係數以 CKD-EPI 2009 的 eGFR 開發；搭配 2021 版時 eGFR 45–59 低估、65 歲以上 5 年風險高估（Grams 2023），多重共病者可能低估（Walker 2026）。JAMA 2016 補充附錄 p9 本輪無法開啟，Original 與非北美 5 年 S0 已在開放全文核對（0.9240、0.9365），2 年與北美版維持暫定或只有規格。已實作的程式與測試見 [整合報告](14-integrated-synthesis.md) 第 8 節與 `calculators/`。
+
 ## 4. 四變項 KFRE：完整公式與校準版本
 
 輸入age、sex、eGFR及UACR，估計CKD G3–G5病人2/5年接受dialysis或transplantation的kidney failure風險。不是用於所有糖尿病、G1–G2、AKI或已接受KRT者的通用分數。

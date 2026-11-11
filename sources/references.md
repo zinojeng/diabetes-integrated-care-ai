@@ -49,7 +49,7 @@
 | REF-041 | [Hermes](https://github.com/NousResearch/hermes-agent) | [AI 臨床研究的證據範圍](../docs/07-ai-clinical-evidence.md) |
 | REF-042 | [健保署原文](https://www.nhi.gov.tw/en/cp-19748-976e7-8-2.html) | [台灣已有的 AI 與 LLM 應用](../docs/08-taiwan-ai-applications.md) |
 | REF-043 | [院方英文介紹](https://www.chimei.org.tw/main/cmh_department/54220/english/news/20240712.html) | [台灣已有的 AI 與 LLM 應用](../docs/08-taiwan-ai-applications.md) |
-| REF-044 | [研究全文](https://pmc.ncbi.nlm.nih.gov/articles/13022550) | [台灣已有的 AI 與 LLM 應用](../docs/08-taiwan-ai-applications.md) |
+| REF-044 | [研究全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13022550) | [台灣已有的 AI 與 LLM 應用](../docs/08-taiwan-ai-applications.md) |
 | REF-045 | [國衛院計畫頁](https://ir.nhri.edu.tw/handle/3990099045/21119) | [台灣已有的 AI 與 LLM 應用](../docs/08-taiwan-ai-applications.md) |
 | REF-046 | [院方公告](https://wwwv.tsgh.ndmutsgh.edu.tw/news/191/102550/33828/15128) | [台灣已有的 AI 與 LLM 應用](../docs/08-taiwan-ai-applications.md) |
 | REF-047 | [README](https://github.com/zinojeng/AI-agent-in-diabetes/blob/6180c4f2a56ae50ca5b6ec22e4795f7922a63a3f/README.md) | [既有 GitHub 專案的延伸方向](../docs/09-existing-project-and-gaps.md) |

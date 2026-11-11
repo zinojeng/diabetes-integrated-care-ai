@@ -13,3 +13,7 @@ literature/parsed/
 sessions/*/exchange_log.jsonl
 sessions/*/runtime*.json*
 *.pdf
+
+# verbatim table transcriptions from third-party papers
+literature/notes/calculators/agentA_tables.md
+literature/notes/calculators/agentC_tables.md

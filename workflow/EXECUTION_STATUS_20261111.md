@@ -1,5 +1,8 @@
 # 真實執行狀態與待續工作
 
+> 2026-11-11 更新：以下阻礙記錄屬於先前的 MacBook Air 工作階段。之後在可連網的 Claude Code Desktop 環境實際執行了四個 sessions，結果見 [整合報告](../docs/14-integrated-synthesis.md) 與 [SESSION_PROTOCOL_v2](SESSION_PROTOCOL_v2.md)。
+
+
 日期：2026-11-11，Asia/Taipei。
 
 ## 最新工作階段補充
